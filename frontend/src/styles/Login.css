@@ -1,0 +1,295 @@
+.login-screen {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Subtle dark overlay only — the photo stays the focal point.
+   Slightly stronger toward the right so the card text stays readable
+   without hiding the car or the sunset. */
+.login-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    100deg,
+    rgba(8, 9, 11, 0.15) 0%,
+    rgba(8, 9, 11, 0.35) 45%,
+    rgba(8, 9, 11, 0.6) 75%
+  );
+}
+
+.login-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px 6vw;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 36px;
+  border-radius: 20px;
+
+  /* Frosted glass: translucent, blurred, never solid */
+  background: rgba(255, 255, 255, 0.08);
+  -webkit-backdrop-filter: blur(22px) saturate(140%);
+  backdrop-filter: blur(22px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+
+  color: #f5f3ef;
+  animation: card-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-label {
+  display: block;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 1.5rem;
+  letter-spacing: 0.14em;
+  color: #e8a33d;
+  margin-bottom: 14px;
+}
+
+.login-heading {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+
+.login-subtitle {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: rgba(245, 243, 239, 0.7);
+  margin: 0 0 28px;
+  max-width: 34ch;
+}
+
+.glass-field {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.glass-field-label {
+  display: block;
+  font-size: 0.8rem;
+  color: rgba(245, 243, 239, 0.75);
+  margin-bottom: 7px;
+}
+
+.glass-input-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 0 14px;
+  transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glass-input-row:focus-within {
+  border-color: #e8a33d;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 3px rgba(232, 163, 61, 0.18);
+}
+
+.glass-input-row.has-error {
+  border-color: #d97a6c;
+}
+
+.glass-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: rgba(245, 243, 239, 0.6);
+}
+
+.glass-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.glass-input-row input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 0.95rem;
+  padding: 12px 0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.glass-input-row input::placeholder {
+  color: rgba(245, 243, 239, 0.4);
+}
+
+.glass-icon-btn {
+  background: none;
+  border: none;
+  padding: 4px;
+  width: 20px;
+  height: 20px;
+  color: rgba(245, 243, 239, 0.6);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color 0.15s ease;
+}
+
+.glass-icon-btn:hover {
+  color: #fff;
+}
+
+.glass-icon-btn svg {
+  width: 100%;
+  height: 100%;
+}
+
+.glass-error {
+  display: block;
+  font-size: 0.78rem;
+  color: #f1a698;
+  margin-top: 6px;
+}
+
+.login-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px 0 22px;
+  font-size: 0.85rem;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(245, 243, 239, 0.75);
+  cursor: pointer;
+}
+
+.remember-me input {
+  accent-color: #e8a33d;
+  width: 15px;
+  height: 15px;
+}
+
+.forgot-link {
+  color: rgba(245, 243, 239, 0.75);
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  color: #e8a33d;
+  text-decoration: underline;
+}
+
+.login-error-banner {
+  background: rgba(217, 122, 108, 0.16);
+  border: 1px solid rgba(217, 122, 108, 0.5);
+  color: #f6cec6;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 0.85rem;
+  margin-bottom: 18px;
+}
+
+.signin-btn {
+  width: 100%;
+  background: #e8a33d;
+  color: #1a1408;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(232, 163, 61, 0.25);
+  transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.signin-btn:hover:not(:disabled) {
+  background: #f0b25a;
+  box-shadow: 0 14px 36px rgba(232, 163, 61, 0.35);
+}
+
+.signin-btn:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.signin-btn:disabled {
+  background: rgba(232, 163, 61, 0.45);
+  color: rgba(26, 20, 8, 0.6);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.login-switch {
+  margin: 22px 0 0;
+  text-align: center;
+  font-size: 0.88rem;
+  color: rgba(245, 243, 239, 0.7);
+}
+
+.login-switch a {
+  color: #e8a33d;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-switch a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 860px) {
+  .login-content {
+    justify-content: center;
+    padding: 32px 20px;
+  }
+
+  .login-card {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    padding: 32px 24px;
+    border-radius: 16px;
+  }
+
+  .login-heading {
+    font-size: 1.7rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .login-card {
+    animation: none;
+  }
+}

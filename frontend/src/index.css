@@ -1,0 +1,58 @@
+:root {
+  --bg: #14171b;
+  --surface: #1c2026;
+  --surface-raised: #21262d;
+  --line: #2c323a;
+  --text: #f0eee9;
+  --text-muted: #8b9199;
+  --amber: #e8a33d;
+  --amber-dim: #7a5a2c;
+  --steel: #5b9aa6;
+  --steel-dim: #2f4d53;
+  --danger: #c96a5a;
+
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

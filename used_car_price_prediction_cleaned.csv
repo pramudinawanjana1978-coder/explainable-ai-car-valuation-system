@@ -1,0 +1,1025 @@
+car_id,brand,model,year,mileage_km,engine_size_cc,fuel_type,transmission,owner_count,condition,city,service_history,accident_history,features_count,price_usd
+1,Volkswagen,Tiguan,2021,56398,2200,Petrol,Manual,1,Excellent,Sialkot,Full,No Accident,17,19910
+2,Suzuki,Alto,2009,328090,800,CNG,CVT,4,Fair,Karachi,,Minor Accident,11,2000
+3,Audi,A6,2015,253548,2000,Petrol,DCT,2,Poor,Gujranwala,Full,No Accident,20,4460
+4,Toyota,Fortuner,2006,350000,2500,Petrol,Automatic,1,Poor,,Partial,Minor Accident,6,2000
+5,Kia,Picanto,2014,157434,800,Petrol,CVT,1,Good,,Full,No Accident,10,3450
+6,Nissan,X-Trail,2021,61429,2200,Petrol,Automatic,1,Excellent,Peshawar,Full,No Accident,12,20320
+7,Nissan,Juke,2010,133754,1600,Petrol,Manual,5,Fair,Rawalpindi,Partial,No Accident,6,2000
+10,Hyundai,i10,2022,25574,800,Petrol,Manual,2,Good,Sialkot,Full,No Accident,9,9810
+12,Suzuki,Cultus,2014,176327,1300,CNG,CVT,3,Poor,Faisalabad,Full,Minor Accident,6,2000
+13,Honda,BR-V,2020,73352,1500,Petrol,Manual,1,Excellent,Sialkot,Full,No Accident,15,14460
+14,Lexus,RX,2011,340841,3000,Petrol,Automatic,3,Good,Gujranwala,Partial,Minor Accident,15,2040
+15,Toyota,RAV4,2016,179298,2500,CNG,CVT,4,Good,Multan,Partial,No Accident,11,4100
+16,Audi,A3,2022,40277,2500,Hybrid,Automatic,3,Excellent,Faisalabad,Full,No Accident,25,22300
+17,Honda,Civic,2016,95815,1500,Petrol,CVT,3,Good,Karachi,Partial,No Accident,16,6170
+21,Honda,CR-V,2015,198540,2000,Petrol,Manual,4,Fair,Islamabad,,Major Accident,11,2100
+22,Mazda,Mazda6,2019,112604,1600,Petrol,DCT,1,Excellent,Peshawar,Full,Minor Accident,14,10580
+23,Audi,A4,2018,125582,3500,Petrol,Automatic,2,Good,Faisalabad,Full,No Accident,19,11360
+24,Mazda,Mazda6,2018,123265,1600,Petrol,Automatic,2,Good,Islamabad,Partial,No Accident,14,10340
+25,Honda,CR-V,2012,299463,2000,Petrol,Automatic,3,Fair,Faisalabad,Full,Major Accident,11,2000
+26,Audi,A6,2021,42443,1600,Petrol,Automatic,3,Excellent,Rawalpindi,Full,Minor Accident,21,28760
+29,Toyota,Prius,2011,303831,1000,Petrol,Manual,3,Good,Peshawar,,No Accident,9,2000
+30,Kia,Picanto,2021,52241,660,Petrol,,2,Excellent,Faisalabad,Full,Minor Accident,12,8110
+31,Kia,Rio,2019,155287,1300,Petrol,Manual,1,Good,Islamabad,Full,No Accident,12,7600
+32,Honda,Civic,2013,75572,1600,Petrol,Manual,2,Good,Peshawar,Full,No Accident,11,3770
+34,Mitsubishi,Mirage,2014,199272,660,Petrol,Manual,3,Good,Lahore,Partial,No Accident,3,2140
+35,Audi,A3,2020,91018,3500,Petrol,Automatic,1,Excellent,Lahore,Partial,Minor Accident,17,15970
+36,Mitsubishi,Mirage,2011,292663,1000,Petrol,Manual,2,Good,Sialkot,Full,No Accident,12,2000
+38,Hyundai,Santa Fe,2021,72971,4000,Petrol,Manual,2,Excellent,Sialkot,Full,No Accident,16,20730
+39,Suzuki,Swift,2022,75784,1000,CNG,,2,Good,Multan,Full,No Accident,13,8180
+40,Ford,Fiesta,2020,81312,1500,Petrol,Automatic,2,Fair,Islamabad,Partial,Minor Accident,13,6610
+41,Toyota,Yaris,2020,98434,1000,CNG,Manual,3,Good,Gujranwala,,Minor Accident,14,5150
+43,Nissan,Juke,2016,186563,1500,Diesel,CVT,4,Good,Rawalpindi,Partial,Minor Accident,7,3260
+44,Toyota,Land Cruiser,2020,163711,3000,Petrol,Automatic,5,Excellent,Rawalpindi,Full,No Accident,12,32470
+45,Honda,Civic,2013,181665,1300,Petrol,Manual,5,Fair,Islamabad,Full,No Accident,4,2400
+46,BMW,3 Series,2020,121717,2500,Petrol,Automatic,3,Good,Gujranwala,Partial,No Accident,22,14120
+48,Audi,Q5,2010,100804,4000,Petrol,Automatic,1,Good,Peshawar,Full,No Accident,14,3340
+49,Honda,City,2005,76251,1300,Petrol,Manual,2,Poor,Lahore,Full,No Accident,0,2000
+50,Nissan,Juke,2013,260287,1600,Petrol,Manual,1,Poor,Karachi,Full,No Accident,4,2000
+51,Nissan,X-Trail,2013,209190,2200,Diesel,Automatic,1,Poor,Lahore,Partial,No Accident,15,2930
+52,Volvo,S60,2015,160967,1600,Petrol,Automatic,1,Good,Karachi,Full,No Accident,22,8790
+53,Volkswagen,Tiguan,2015,242862,2400,Petrol,Manual,2,Excellent,Karachi,,No Accident,12,5110
+55,Kia,Picanto,2018,150628,1000,Petrol,CVT,2,Excellent,Gujranwala,Partial,No Accident,10,5010
+56,Subaru,Outback,2016,179967,2000,Petrol,DCT,4,Good,Peshawar,,No Accident,12,5040
+57,Volkswagen,Golf,2020,141744,1500,Diesel,Automatic,1,Good,Karachi,Partial,No Accident,20,12480
+58,Subaru,XV,2016,296738,1600,Petrol,DCT,2,Fair,Rawalpindi,Full,No Accident,14,3720
+59,Honda,City,2023,24724,1600,Petrol,CVT,1,Excellent,Lahore,Full,No Accident,17,17580
+61,Chevrolet,Aveo,2019,87723,1200,Diesel,Automatic,3,Good,Rawalpindi,Partial,Minor Accident,19,5300
+62,Mercedes-Benz,A-Class,2011,162847,1600,Petrol,Automatic,2,Poor,Sialkot,Full,No Accident,19,2000
+63,Suzuki,Bolan,2012,180049,800,Petrol,Manual,3,Good,Karachi,,No Accident,11,2000
+65,Volkswagen,Golf,2017,177100,1300,Petrol,Automatic,3,Good,Lahore,,No Accident,13,6220
+66,Toyota,Corolla,2024,25062,1800,Petrol,Automatic,1,Excellent,Peshawar,Full,No Accident,11,22920
+67,Hyundai,Elantra,2023,31127,2000,Petrol,Automatic,4,Excellent,Islamabad,,No Accident,18,15680
+68,Honda,BR-V,2018,156604,1600,Petrol,CVT,2,Excellent,Karachi,Partial,Minor Accident,14,7610
+69,Toyota,Prius,2015,213081,1500,Hybrid,Manual,1,Good,Peshawar,,No Accident,12,4410
+70,Ford,Fiesta,2023,22010,1000,CNG,Manual,2,Excellent,Sialkot,Full,No Accident,19,16110
+71,Chevrolet,Malibu,2015,252485,2000,Petrol,Automatic,4,Fair,Peshawar,,Minor Accident,19,2080
+72,Hyundai,Tucson,2013,235311,2200,Petrol,Manual,4,Good,Karachi,Partial,Major Accident,13,2100
+73,Toyota,RAV4,2020,118360,2000,Petrol,Automatic,2,Good,Karachi,Full,No Accident,13,14150
+74,Subaru,Impreza,2019,48112,1300,Petrol,Automatic,3,Good,Quetta,Partial,No Accident,16,8360
+75,Lexus,RX,2015,256220,2500,Diesel,DCT,3,Fair,Peshawar,Full,Minor Accident,16,4220
+76,Toyota,Land Cruiser,2021,94513,3000,Diesel,Manual,2,Excellent,Multan,Partial,No Accident,13,50290
+77,Chevrolet,Cruze,2021,63461,1600,Petrol,CVT,3,Good,Rawalpindi,Full,No Accident,14,11300
+78,Volkswagen,Polo,2011,245697,1000,Petrol,Automatic,1,Fair,Rawalpindi,,Major Accident,2,2000
+79,Suzuki,Vitara,2013,178517,1500,Petrol,CVT,3,Excellent,Multan,Partial,No Accident,4,2680
+80,Volkswagen,Passat,2021,66878,1300,Petrol,Automatic,2,Excellent,Lahore,Partial,No Accident,17,22380
+81,Subaru,Outback,2017,170091,2000,Petrol,CVT,3,Good,,Partial,No Accident,13,8100
+82,Chevrolet,Malibu,2015,116667,1500,Petrol,Manual,4,Excellent,Karachi,Full,No Accident,8,5140
+83,Chevrolet,Malibu,2020,249217,1600,Petrol,CVT,4,Fair,Lahore,Full,No Accident,15,5140
+85,Honda,Civic,2017,163785,1500,Petrol,,2,Good,Peshawar,Full,No Accident,10,6370
+86,Volkswagen,Passat,2014,173990,1300,Petrol,Automatic,2,Fair,Karachi,Full,Minor Accident,13,4060
+87,Toyota,Land Cruiser,2020,24450,3000,Petrol,Automatic,1,Good,Lahore,Partial,No Accident,14,51430
+88,Audi,A3,2023,29861,3500,Petrol,DCT,2,Good,Multan,Full,No Accident,20,25550
+89,Toyota,Hilux,2020,86888,2500,Diesel,Manual,2,Excellent,Peshawar,Full,No Accident,13,18690
+90,Hyundai,Accent,2017,84435,1200,Petrol,Automatic,2,Fair,Karachi,Partial,No Accident,10,5310
+91,Honda,City,2016,282572,1600,Petrol,Manual,1,Good,Quetta,Partial,No Accident,13,2890
+94,Honda,Civic,2010,200259,1300,Petrol,Manual,1,Fair,Lahore,Full,Minor Accident,3,2000
+96,Toyota,RAV4,2013,315264,2000,Petrol,Manual,2,Fair,Rawalpindi,Full,Minor Accident,11,2270
+98,Lexus,RX,2017,115610,4000,Diesel,Automatic,3,Fair,Islamabad,Partial,Minor Accident,16,8070
+99,Honda,HR-V,2016,201309,1600,Petrol,Manual,1,Fair,Peshawar,,No Accident,17,3800
+100,Audi,A6,2012,350000,1600,Petrol,Automatic,2,Good,Islamabad,Full,No Accident,13,4100
+101,Ford,Mustang,2009,210913,3000,Petrol,Automatic,2,Fair,Rawalpindi,Full,No Accident,9,3280
+102,Suzuki,Vitara,2014,218805,2000,Petrol,Automatic,4,Fair,Sialkot,Full,Minor Accident,7,2050
+103,BMW,5 Series,2020,38508,2500,Petrol,DCT,2,Excellent,Lahore,Partial,No Accident,17,32770
+104,Chevrolet,Spark,2022,81475,1000,Hybrid,Manual,2,Excellent,Lahore,Full,Minor Accident,15,9770
+105,Mitsubishi,ASX,2019,107146,2000,Hybrid,CVT,3,Excellent,Islamabad,,No Accident,16,9550
+106,Honda,Accord,2013,211331,1800,Petrol,Manual,3,Excellent,Lahore,Partial,Minor Accident,7,3710
+107,Honda,BR-V,2020,47977,1800,Petrol,DCT,2,Good,Rawalpindi,Full,Minor Accident,17,12310
+108,Ford,Explorer,2020,157454,2500,Petrol,Automatic,4,Good,Islamabad,Full,No Accident,13,15170
+109,Honda,Accord,2013,123836,1300,Petrol,Automatic,2,Fair,Sialkot,Full,No Accident,12,4220
+110,Suzuki,Alto,2019,115651,660,Petrol,CVT,2,Good,Peshawar,Full,No Accident,6,4370
+111,Hyundai,Accent,2017,178788,1500,Petrol,Automatic,3,Excellent,Gujranwala,,Minor Accident,11,3760
+112,Volvo,V40,2015,350000,2000,Diesel,Automatic,3,Poor,Sialkot,Partial,Minor Accident,12,2000
+114,Volkswagen,Tiguan,2014,110961,2200,Petrol,Manual,1,Fair,Peshawar,Full,No Accident,12,5070
+115,Hyundai,Santa Fe,2016,208812,4000,Diesel,Automatic,1,Fair,Sialkot,Full,No Accident,7,6160
+116,Toyota,Fortuner,2011,284948,2500,Petrol,Automatic,3,Fair,Faisalabad,,No Accident,11,2440
+117,Hyundai,Elantra,2012,182456,1800,Diesel,Manual,3,Excellent,Gujranwala,Full,No Accident,6,3070
+118,BMW,3 Series,2014,204713,2000,Petrol,Automatic,3,Good,Karachi,Partial,No Accident,13,5340
+119,Suzuki,Cultus,2016,245333,1500,Petrol,CVT,2,Fair,Peshawar,Full,No Accident,1,2210
+120,BMW,5 Series,2017,233457,2500,Petrol,Automatic,2,Good,Karachi,Partial,No Accident,16,9240
+121,Toyota,Camry,2019,116057,1500,Petrol,DCT,2,Fair,Quetta,Full,No Accident,12,9890
+122,Suzuki,Vitara,2018,179884,1600,Diesel,CVT,1,Fair,Islamabad,Full,Minor Accident,7,5940
+123,BMW,X3,2020,73441,2000,Petrol,Automatic,3,Excellent,Karachi,Full,No Accident,16,26890
+124,Suzuki,Cultus,2020,63309,1000,Petrol,Manual,1,Excellent,Sialkot,Full,No Accident,13,8830
+125,Honda,Accord,2009,90856,1600,Diesel,Manual,1,Fair,Peshawar,Partial,Major Accident,1,2000
+126,Suzuki,Swift,2017,125441,1000,Petrol,Manual,3,Good,Gujranwala,Partial,No Accident,7,3400
+127,Kia,Sorento,2013,169305,2500,Diesel,Automatic,5,Poor,Karachi,Full,Major Accident,9,2180
+128,Volkswagen,Passat,2023,44086,1800,Diesel,Automatic,2,Excellent,Lahore,Full,No Accident,19,32240
+129,Chevrolet,Cruze,2017,104761,1300,Petrol,CVT,1,Fair,Peshawar,Full,No Accident,13,5700
+130,Chevrolet,Aveo,2013,119678,1000,CNG,Manual,1,Good,Karachi,Full,No Accident,12,3200
+131,Honda,HR-V,2021,65303,2000,Petrol,CVT,3,Excellent,Lahore,Partial,No Accident,14,16870
+132,Toyota,Hilux,2016,181907,2400,Petrol,Automatic,1,Excellent,Rawalpindi,Full,No Accident,11,10170
+133,Hyundai,Elantra,2018,123905,2000,Petrol,Manual,4,Good,Gujranwala,Full,Minor Accident,11,4710
+135,Mercedes-Benz,A-Class,2014,162956,1600,CNG,Automatic,2,Good,Islamabad,,No Accident,15,5070
+136,Lexus,LX,2012,238146,3000,Petrol,DCT,2,Fair,Peshawar,Partial,No Accident,12,5680
+137,Kia,Sportage,2013,160617,2200,Petrol,Manual,3,Poor,Quetta,Partial,Minor Accident,6,2000
+139,Suzuki,Wagon R,2008,176894,660,Petrol,Manual,1,Good,Gujranwala,,Major Accident,4,2000
+140,Hyundai,Accent,2020,114623,1200,Petrol,Automatic,3,Fair,Karachi,,Minor Accident,8,4590
+141,Nissan,Sunny,2020,109509,1300,Petrol,CVT,1,Good,Lahore,Full,No Accident,13,11490
+142,Suzuki,Bolan,2016,183978,1300,Petrol,Manual,1,Fair,Rawalpindi,Partial,No Accident,16,2180
+143,Mazda,Mazda6,2021,76965,2000,Diesel,Automatic,1,Excellent,Faisalabad,Full,No Accident,12,18890
+144,Mitsubishi,Lancer,2017,164519,1300,Hybrid,DCT,1,Good,Peshawar,Full,No Accident,10,6620
+146,Suzuki,Wagon R,2022,71687,800,Petrol,Automatic,1,Good,Sialkot,Full,No Accident,18,9020
+147,Hyundai,Elantra,2014,114928,1800,Petrol,Manual,3,Good,Faisalabad,Partial,No Accident,11,3540
+148,Audi,A6,2017,139862,3000,CNG,Automatic,1,Excellent,Peshawar,Full,No Accident,14,16080
+149,Nissan,X-Trail,2018,107910,1800,Petrol,CVT,4,Good,Lahore,Full,Minor Accident,9,7660
+150,Toyota,Corolla,2022,50136,1300,Petrol,Automatic,1,Excellent,Peshawar,Full,No Accident,17,19720
+151,Mercedes-Benz,GLE,2020,53422,2000,Petrol,DCT,4,Excellent,Rawalpindi,Full,No Accident,22,40590
+154,Mitsubishi,Pajero,2010,210912,3500,Petrol,Automatic,3,Poor,Lahore,Partial,No Accident,13,2290
+155,Subaru,Impreza,2019,114503,1300,Petrol,Automatic,2,Good,Islamabad,Full,Minor Accident,19,8860
+156,Toyota,Yaris,2019,57114,1300,Petrol,Automatic,5,Good,Karachi,,Minor Accident,6,5320
+157,Toyota,Corolla,2018,93204,1600,Petrol,Automatic,3,Fair,Gujranwala,Full,No Accident,13,7510
+158,Honda,Civic,2022,69552,1300,Petrol,CVT,1,Excellent,Sialkot,Full,No Accident,14,20690
+159,Toyota,RAV4,2022,27743,2500,Petrol,Manual,2,Excellent,Peshawar,Partial,No Accident,16,21610
+160,Honda,CR-V,2020,56540,2400,Petrol,Automatic,1,Excellent,Multan,Full,No Accident,14,22310
+161,Mazda,Mazda6,2019,103718,1300,Petrol,DCT,3,Excellent,Lahore,Partial,No Accident,18,11980
+162,Kia,Sportage,2015,99127,2000,Petrol,Manual,1,Fair,Quetta,Full,No Accident,5,4380
+163,Honda,CR-V,2021,77669,2200,Petrol,DCT,1,Fair,Sialkot,Full,No Accident,16,18420
+164,Mitsubishi,Lancer,2017,117312,1600,Petrol,CVT,4,Good,Multan,Partial,,8,4450
+165,Toyota,Fortuner,2013,134962,4000,Diesel,Manual,3,Fair,Sialkot,Full,Minor Accident,11,4580
+166,Mitsubishi,Outlander,2019,57681,2200,CNG,Automatic,3,Excellent,Faisalabad,Partial,No Accident,18,11260
+167,Suzuki,Alto,2017,169733,800,Petrol,Manual,3,Excellent,Peshawar,Full,No Accident,12,2980
+168,Toyota,Yaris,2019,183856,1300,Petrol,Manual,1,Fair,Karachi,Full,No Accident,17,5360
+169,Kia,Rio,2019,147525,1000,Petrol,Automatic,1,Excellent,Rawalpindi,Full,No Accident,16,8770
+171,Toyota,Yaris,2011,223355,1000,,Automatic,3,Good,Faisalabad,Partial,Minor Accident,12,2000
+172,BMW,5 Series,2021,146004,3500,Petrol,Automatic,1,Good,Faisalabad,Partial,No Accident,21,24210
+173,Honda,CR-V,2017,246826,2400,Petrol,Automatic,4,Poor,Peshawar,,Minor Accident,9,2000
+175,Honda,CR-V,2017,103577,2000,Petrol,Automatic,2,,Rawalpindi,Full,No Accident,14,10950
+176,Mitsubishi,ASX,2015,195304,1800,Petrol,Manual,3,Fair,Lahore,,Major Accident,12,2000
+177,Subaru,Impreza,2021,118657,2000,Petrol,DCT,2,Good,Gujranwala,Full,No Accident,15,10400
+178,Suzuki,Wagon R,2019,137356,660,CNG,CVT,1,Fair,Karachi,,No Accident,12,4510
+179,Honda,HR-V,2012,130600,1600,Petrol,Automatic,1,Good,Islamabad,Full,No Accident,8,3940
+180,Hyundai,Sonata,2018,78367,1800,Petrol,Automatic,3,Excellent,Faisalabad,Full,No Accident,6,11170
+181,Mitsubishi,Lancer,2021,95059,1300,Petrol,,2,Excellent,Islamabad,Full,Minor Accident,16,12170
+182,Nissan,Sunny,2024,33559,2000,Petrol,Manual,1,Excellent,Lahore,Full,No Accident,12,21880
+184,Honda,CR-V,2020,202466,2400,Petrol,CVT,1,Good,Lahore,Full,No Accident,15,15850
+185,Toyota,Prius,2018,162893,1000,Petrol,Manual,3,Fair,Quetta,Partial,No Accident,10,4510
+186,Mitsubishi,Outlander,2013,293440,2400,Petrol,Automatic,3,Fair,Karachi,Partial,No Accident,8,2480
+187,Suzuki,Vitara,2018,175833,1500,Petrol,Manual,2,Good,Gujranwala,,No Accident,13,4930
+188,Volkswagen,Golf,2016,168582,1200,Petrol,Manual,2,Fair,Karachi,Partial,No Accident,13,4040
+189,Suzuki,Bolan,2013,171560,800,Petrol,Manual,1,Fair,Faisalabad,Full,No Accident,9,2000
+190,Toyota,Land Cruiser,2011,350000,2500,Petrol,Automatic,2,Fair,Rawalpindi,,No Accident,11,4130
+191,Honda,HR-V,2023,63814,1800,Petrol,CVT,2,Excellent,Lahore,Full,No Accident,15,25710
+192,Ford,Ranger,2006,305430,3000,Petrol,Automatic,2,Poor,,Partial,Minor Accident,9,2000
+193,Hyundai,i10,2010,248731,660,Petrol,CVT,1,Fair,Islamabad,Partial,Major Accident,7,2000
+194,Toyota,Corolla,2011,200358,1800,Petrol,Manual,2,Fair,Quetta,Full,No Accident,8,2020
+195,Hyundai,Tucson,2014,152456,2000,Petrol,Manual,4,Fair,Multan,,Minor Accident,9,2240
+196,Kia,Cerato,2010,350000,1500,Petrol,Manual,1,,Gujranwala,Full,No Accident,8,2000
+197,Hyundai,i10,2013,318858,800,Petrol,Manual,3,Poor,Multan,Partial,No Accident,9,2000
+198,Suzuki,Swift,2020,146892,1500,Petrol,Manual,1,Good,Rawalpindi,Full,No Accident,11,6790
+199,Suzuki,Bolan,2018,135636,1300,Petrol,Manual,5,Good,Karachi,Partial,Minor Accident,10,2230
+200,BMW,X5,2016,125091,3500,Diesel,Automatic,3,Good,Faisalabad,Partial,No Accident,22,13310
+202,BMW,X3,2018,152297,2500,Petrol,DCT,3,Excellent,Rawalpindi,Partial,Minor Accident,13,11270
+203,Audi,A3,2008,224382,2500,CNG,Automatic,5,Poor,Peshawar,Partial,Minor Accident,16,2000
+204,Mercedes-Benz,C-Class,2014,149520,2000,Petrol,DCT,1,Excellent,Islamabad,Full,No Accident,19,9300
+205,Suzuki,Swift,2011,159605,1300,Petrol,Manual,3,Poor,Karachi,Partial,No Accident,7,2000
+206,Suzuki,Wagon R,2009,345516,1000,,Manual,1,Fair,Karachi,Full,No Accident,5,2000
+207,Toyota,Fortuner,2014,109101,4000,Petrol,Automatic,1,Excellent,Multan,Partial,No Accident,15,7930
+209,Suzuki,Swift,2007,175057,1000,Petrol,Manual,1,Poor,Sialkot,,Minor Accident,6,2000
+210,Honda,Civic,2009,177742,1300,Petrol,,3,Fair,Islamabad,Full,No Accident,6,2000
+211,Suzuki,Cultus,2020,145935,1500,Petrol,Automatic,2,Excellent,Faisalabad,Full,No Accident,11,7070
+212,Audi,A4,2015,158682,2000,Petrol,Automatic,2,Poor,Sialkot,Partial,Major Accident,20,2250
+215,Suzuki,Alto,2012,223244,660,CNG,Manual,2,Good,Faisalabad,,Major Accident,7,2000
+216,Hyundai,Accent,2007,206895,1200,,Automatic,1,Good,Multan,Full,Major Accident,4,2000
+218,Chevrolet,Captiva,2013,237197,2200,Petrol,,2,Poor,Islamabad,Partial,No Accident,9,2220
+219,Toyota,Camry,2017,108829,1300,Petrol,Automatic,1,Excellent,Islamabad,Full,No Accident,10,11420
+220,Hyundai,Santa Fe,2019,124329,3500,Petrol,Manual,3,Excellent,Rawalpindi,,No Accident,14,11440
+221,Toyota,Yaris,2016,186164,1300,CNG,Manual,4,Fair,Lahore,,No Accident,9,2250
+222,Honda,Civic,2011,350000,1500,Petrol,Automatic,1,Fair,Multan,Full,Minor Accident,9,2000
+223,BMW,1 Series,2021,75087,3500,Petrol,Automatic,2,Excellent,Lahore,,No Accident,23,22750
+225,Kia,Stonic,2015,87285,1600,Petrol,Manual,2,Good,Peshawar,Partial,No Accident,5,3940
+227,Kia,Sorento,2014,90020,3000,Petrol,Automatic,2,Good,Sialkot,Full,No Accident,13,6860
+228,Mitsubishi,Mirage,2019,176029,800,Petrol,Manual,4,Excellent,Gujranwala,Partial,Minor Accident,15,3630
+229,Chevrolet,Captiva,2018,125001,2200,Petrol,Automatic,3,Good,Quetta,Partial,Major Accident,18,4750
+230,BMW,7 Series,2018,124082,3000,Diesel,Automatic,2,Good,Karachi,Full,No Accident,22,31510
+231,Toyota,Hilux,2017,241662,2200,Diesel,Automatic,1,Fair,Faisalabad,Partial,No Accident,7,5880
+232,Hyundai,Tucson,2024,25005,2200,Petrol,CVT,2,Good,Faisalabad,Partial,No Accident,14,22700
+233,Ford,Escape,2022,95005,2200,Diesel,Automatic,3,Good,Lahore,Full,No Accident,15,16410
+234,Honda,Civic,2014,297194,2000,Diesel,Manual,3,Poor,Rawalpindi,,Major Accident,11,2000
+235,Mazda,Mazda2,2021,80908,1200,Diesel,Automatic,4,Excellent,Karachi,Partial,No Accident,13,9200
+236,Toyota,RAV4,2013,215384,1800,Petrol,Automatic,4,Poor,Islamabad,Partial,No Accident,5,2030
+237,Nissan,Note,2017,119157,1200,Diesel,Automatic,3,Excellent,Quetta,Partial,No Accident,9,5400
+238,Toyota,RAV4,2013,241952,2500,Petrol,Automatic,1,Fair,Islamabad,Full,No Accident,14,3440
+239,Suzuki,Bolan,2014,270015,800,Petrol,Manual,4,Good,Sialkot,Full,Minor Accident,3,2000
+240,Honda,City,2011,252363,1500,Petrol,Manual,2,,Islamabad,Partial,No Accident,7,2000
+242,Honda,Accord,2008,150843,1500,Petrol,Manual,1,Fair,Rawalpindi,Partial,Minor Accident,6,2000
+244,Mazda,CX-5,2023,40072,2200,Diesel,Automatic,2,Good,Lahore,Full,No Accident,19,24370
+245,Suzuki,Bolan,2012,231011,800,Petrol,CVT,2,Good,Faisalabad,Partial,Minor Accident,3,2000
+246,Honda,HR-V,2014,240379,1500,Petrol,Manual,1,Fair,Faisalabad,Full,Minor Accident,10,2780
+247,Mercedes-Benz,GLE,2023,37549,2500,Petrol,DCT,4,Good,Sialkot,Full,No Accident,18,40890
+248,Audi,A6,2011,156102,3000,Hybrid,Automatic,3,Fair,Gujranwala,Partial,No Accident,15,3820
+249,Suzuki,Swift,2014,251327,1200,Hybrid,Automatic,2,Fair,Karachi,Partial,No Accident,8,2000
+250,Suzuki,Cultus,2019,175864,1000,CNG,Automatic,2,Good,Quetta,Full,No Accident,19,4620
+251,Honda,CR-V,2017,148189,2500,Diesel,CVT,3,Good,Multan,,No Accident,7,6000
+253,Nissan,X-Trail,2015,107920,1800,Petrol,Manual,2,Excellent,Karachi,Partial,No Accident,10,7370
+254,Audi,A4,2007,350000,2500,CNG,Automatic,5,Poor,Lahore,Partial,Minor Accident,12,2000
+255,Hyundai,i10,2022,17972,1000,Petrol,Manual,3,Excellent,Islamabad,Full,No Accident,14,12530
+256,Kia,Picanto,2021,89601,660,Petrol,Manual,2,Good,Rawalpindi,Full,No Accident,20,7950
+257,BMW,5 Series,2013,299926,1600,Petrol,DCT,3,Fair,Lahore,Partial,Minor Accident,24,3280
+258,Toyota,Camry,2009,261231,2000,Diesel,Manual,1,,Rawalpindi,,Major Accident,3,2000
+259,Toyota,Camry,2018,101581,1300,Petrol,CVT,3,Good,Karachi,Partial,No Accident,8,9330
+261,Honda,Civic,2009,350000,1600,CNG,Manual,1,Fair,Karachi,Full,No Accident,2,2000
+263,Kia,Rio,2018,153494,1200,Petrol,Manual,1,Good,Quetta,Full,No Accident,15,5530
+264,BMW,X5,2017,202295,4000,Petrol,DCT,2,Fair,Peshawar,Full,Major Accident,25,7670
+265,Suzuki,Alto,2013,117106,660,Petrol,CVT,4,Poor,Rawalpindi,Full,Major Accident,4,2000
+266,Toyota,Land Cruiser,2018,81724,3500,Petrol,Manual,3,Excellent,Karachi,Partial,Minor Accident,8,24510
+267,Toyota,Land Cruiser,2017,113557,2500,Hybrid,Manual,2,Excellent,Karachi,Partial,Minor Accident,7,21760
+268,Suzuki,Swift,2015,280637,1300,Petrol,Automatic,1,Good,Peshawar,Partial,Minor Accident,8,2000
+269,Honda,BR-V,2021,73664,1600,Petrol,DCT,1,Good,Gujranwala,Partial,No Accident,10,11580
+270,Toyota,Yaris,2017,139049,1300,Petrol,Manual,2,Excellent,Faisalabad,,Minor Accident,11,3960
+271,Honda,HR-V,2018,123977,1600,Petrol,Automatic,2,Excellent,Faisalabad,Partial,No Accident,13,8120
+272,Toyota,Yaris,2022,69393,1300,Petrol,Automatic,1,Excellent,Karachi,Full,No Accident,18,17030
+276,Nissan,Note,2009,220010,1200,Petrol,Manual,2,Fair,Lahore,Partial,No Accident,4,2000
+277,Toyota,Corolla,2020,78452,1600,Diesel,Automatic,2,Good,Rawalpindi,Full,No Accident,12,12000
+278,Chevrolet,Malibu,2007,350000,1500,Petrol,Manual,4,Fair,Rawalpindi,Full,No Accident,4,2000
+279,Subaru,Impreza,2014,106435,1500,Diesel,Automatic,3,Fair,Lahore,Full,No Accident,5,3490
+280,Suzuki,Wagon R,2019,78611,1000,Petrol,CVT,1,Good,Karachi,Full,No Accident,14,6080
+281,Mazda,Mazda2,2016,52028,1200,Petrol,Automatic,5,Excellent,Karachi,,No Accident,12,4380
+283,Suzuki,Alto,2018,201081,660,CNG,CVT,1,Poor,Karachi,Full,No Accident,9,2070
+284,Mitsubishi,Mirage,2011,145467,1000,Diesel,Manual,4,Excellent,Multan,Partial,Minor Accident,4,2000
+286,Hyundai,Santa Fe,2012,177550,3500,Petrol,Manual,2,Good,Gujranwala,,No Accident,7,3320
+287,Ford,Fiesta,2018,103190,1000,Petrol,Manual,1,Excellent,Gujranwala,Partial,No Accident,13,7390
+288,Suzuki,Cultus,2017,102556,1200,CNG,Manual,1,Excellent,Lahore,Partial,No Accident,10,4900
+289,Toyota,Hilux,2017,146264,2200,Petrol,,1,Excellent,,Partial,No Accident,6,10340
+290,Kia,Sportage,2018,216673,2000,Petrol,CVT,4,Excellent,Rawalpindi,Full,No Accident,10,8650
+291,Toyota,Yaris,2021,38022,1200,Petrol,Manual,2,Good,Rawalpindi,Full,,19,12670
+292,Suzuki,Cultus,2011,340631,1500,Petrol,Automatic,1,Fair,Faisalabad,Full,Minor Accident,0,2000
+293,Hyundai,Sonata,2019,69993,1800,Petrol,CVT,1,Excellent,Sialkot,Partial,No Accident,13,12200
+294,Honda,Accord,2017,82452,1600,Petrol,Automatic,2,Good,Rawalpindi,Full,No Accident,15,11890
+295,Kia,Picanto,2017,88968,660,Petrol,Manual,3,Excellent,Rawalpindi,Partial,Minor Accident,15,3920
+296,Kia,Sportage,2020,61789,2400,Petrol,Automatic,2,Excellent,Multan,Partial,No Accident,18,14890
+299,Subaru,Impreza,2012,295205,1500,Petrol,Manual,1,Poor,Sialkot,,Minor Accident,11,2000
+300,Hyundai,i10,2022,68549,1000,Petrol,Manual,1,Good,Lahore,Full,No Accident,10,11440
+302,Kia,Stonic,2016,198021,2000,Diesel,CVT,3,Fair,Lahore,Full,No Accident,14,4070
+303,Honda,CR-V,2014,169911,1800,Petrol,Manual,1,Good,Karachi,Full,Minor Accident,12,5060
+306,Toyota,Yaris,2009,295500,1500,Petrol,,2,Poor,Rawalpindi,Full,Minor Accident,9,2000
+307,Honda,BR-V,2019,149082,2000,CNG,Automatic,2,Good,Karachi,Full,No Accident,14,7750
+308,Kia,Cerato,2022,87279,1600,Petrol,CVT,2,Excellent,Multan,Full,No Accident,13,14500
+309,Suzuki,Cultus,2018,97700,1000,Diesel,Automatic,3,Excellent,Multan,Full,No Accident,11,5100
+310,Suzuki,Wagon R,2009,173478,800,CNG,Manual,3,Good,Sialkot,Partial,No Accident,9,2000
+311,Toyota,Fortuner,2022,63103,4000,Petrol,,2,Good,Multan,Full,No Accident,11,26870
+312,Toyota,RAV4,2009,133577,2400,Petrol,Automatic,5,Poor,Sialkot,Partial,Minor Accident,6,2000
+314,Mitsubishi,Pajero,2020,79407,3000,Petrol,Manual,4,Excellent,Lahore,Partial,No Accident,13,20840
+317,Suzuki,Bolan,2020,86609,800,Petrol,Automatic,1,Excellent,Sialkot,Full,No Accident,13,6580
+320,Suzuki,Bolan,2017,134012,1000,Petrol,CVT,3,Good,Karachi,Partial,No Accident,0,2810
+321,Hyundai,Sonata,2016,165804,1500,Petrol,DCT,2,Good,Sialkot,Partial,No Accident,7,5260
+322,Hyundai,i10,2020,81165,800,Petrol,Automatic,1,Good,Multan,Full,No Accident,11,7090
+323,Kia,Cerato,2023,47803,1600,Petrol,Automatic,1,Excellent,Quetta,Full,No Accident,12,18200
+324,Suzuki,Vitara,2015,249135,1500,Petrol,Manual,1,Fair,Karachi,Partial,Minor Accident,7,2320
+325,Suzuki,Wagon R,2021,42449,800,Hybrid,CVT,1,Excellent,Islamabad,Full,No Accident,9,12530
+327,Toyota,Yaris,2016,153312,1500,Petrol,Manual,1,Excellent,Islamabad,Full,No Accident,14,5580
+328,Honda,City,2022,31160,1500,Petrol,Automatic,1,Excellent,Karachi,Partial,No Accident,15,16110
+330,Lexus,NX,2013,194719,3000,Petrol,Automatic,3,Good,Lahore,Full,No Accident,14,4510
+331,Hyundai,i10,2019,162540,800,Petrol,Manual,2,Excellent,Faisalabad,Full,No Accident,14,5400
+332,Suzuki,Swift,2018,156341,1000,Petrol,CVT,1,Good,Islamabad,Full,Minor Accident,8,4120
+333,Ford,Explorer,2019,159388,4000,Diesel,Automatic,3,Excellent,Islamabad,Partial,No Accident,17,15430
+335,Honda,CR-V,2013,188815,2500,Petrol,Manual,4,Good,Karachi,Partial,Major Accident,5,2500
+336,Kia,Sportage,2015,204362,1800,Petrol,Automatic,1,Good,Rawalpindi,Full,No Accident,10,5820
+337,Honda,BR-V,2018,225414,1600,Petrol,Automatic,3,,Peshawar,Full,No Accident,9,5100
+338,Nissan,Patrol,2021,91266,2500,Diesel,Manual,2,Excellent,Karachi,Full,No Accident,10,37350
+339,Toyota,Camry,2018,74442,1500,Petrol,Automatic,4,Good,Islamabad,,No Accident,12,8710
+340,Suzuki,Vitara,2012,36291,2000,Hybrid,Manual,1,Excellent,Quetta,Partial,No Accident,2,2600
+341,Honda,Civic,2008,333651,1500,Petrol,Manual,3,Fair,Karachi,Partial,No Accident,5,2000
+342,BMW,X3,2016,144598,3500,Petrol,DCT,1,Good,Lahore,Full,No Accident,17,12920
+343,Suzuki,Swift,2010,350000,1200,Petrol,CVT,3,Fair,Lahore,,Minor Accident,7,2000
+344,Subaru,Forester,2015,191389,1800,Petrol,Automatic,4,Fair,Rawalpindi,Partial,No Accident,14,4080
+345,Suzuki,Bolan,2020,167518,800,Petrol,Manual,3,Excellent,Multan,Full,No Accident,17,3930
+346,Nissan,X-Trail,2020,67613,2000,Petrol,Automatic,2,Excellent,Karachi,Full,Minor Accident,14,18520
+347,Suzuki,Swift,2014,221515,1300,Petrol,CVT,2,Good,Multan,,No Accident,7,2180
+348,Toyota,Yaris,2018,72424,1300,Petrol,Manual,1,Good,Peshawar,Full,No Accident,13,6460
+349,Honda,HR-V,2008,350000,1600,Petrol,Automatic,3,Poor,Peshawar,,Minor Accident,5,2000
+350,Mercedes-Benz,A-Class,2018,160455,2500,Petrol,CVT,4,Good,Gujranwala,,No Accident,19,8630
+352,Suzuki,Swift,2020,130131,1000,Petrol,Manual,5,Excellent,Rawalpindi,Full,No Accident,9,5530
+355,Kia,Picanto,2016,154061,800,Petrol,CVT,1,Excellent,Karachi,Partial,No Accident,15,4180
+356,Audi,A6,2021,42341,2000,Hybrid,DCT,3,Good,Faisalabad,Full,No Accident,21,32240
+358,Toyota,Hilux,2017,36749,2200,Petrol,Automatic,4,Excellent,Rawalpindi,Partial,No Accident,12,8370
+359,Suzuki,Bolan,2021,111509,800,Petrol,Manual,1,Excellent,Multan,Partial,No Accident,10,4900
+360,Honda,BR-V,2018,90963,2000,Petrol,CVT,5,Excellent,Lahore,,No Accident,7,7070
+361,Nissan,Sunny,2022,89363,1500,Diesel,Automatic,1,Good,Islamabad,Full,No Accident,14,15580
+362,Audi,Q3,2018,149274,3000,Petrol,DCT,2,Excellent,Islamabad,Full,,19,12860
+363,Suzuki,Cultus,2019,140180,1200,CNG,Manual,4,Good,Lahore,Partial,Minor Accident,11,3590
+364,Toyota,Land Cruiser,2021,93454,3500,Diesel,Automatic,2,Excellent,Peshawar,Full,Minor Accident,11,48390
+365,Suzuki,Cultus,2019,155092,1200,CNG,Automatic,3,Excellent,Faisalabad,Partial,No Accident,13,4590
+366,Subaru,Forester,2018,122480,2500,Petrol,Manual,1,Excellent,Multan,Full,No Accident,16,10360
+367,Mitsubishi,Mirage,2009,172399,800,Petrol,Manual,3,Fair,Karachi,Partial,Minor Accident,6,2000
+368,Honda,Civic,2011,198640,1300,Petrol,Automatic,2,Fair,Islamabad,Partial,No Accident,3,2660
+369,Toyota,Hilux,2012,299766,2400,Petrol,Manual,5,Fair,Peshawar,Partial,No Accident,8,2000
+371,Volkswagen,Polo,2021,107152,1200,Petrol,Manual,1,Good,Sialkot,Full,No Accident,14,11070
+372,Chevrolet,Cruze,2014,342144,1800,Petrol,Automatic,1,Fair,Faisalabad,Full,Minor Accident,7,2000
+373,Toyota,RAV4,2020,94689,2400,Petrol,CVT,3,Excellent,Karachi,Partial,No Accident,15,12730
+374,Subaru,XV,2021,100557,2000,Petrol,CVT,3,Good,Lahore,,No Accident,17,11560
+375,BMW,3 Series,2020,92837,2000,Petrol,Automatic,4,Fair,Karachi,Partial,Minor Accident,20,10360
+376,Toyota,Yaris,2011,175959,1300,Petrol,Automatic,3,Fair,Rawalpindi,Partial,No Accident,12,2000
+377,Volkswagen,Jetta,2021,36239,2000,Petrol,Manual,2,Excellent,Quetta,Partial,No Accident,11,11000
+378,Suzuki,Alto,2021,60220,1000,Petrol,Manual,1,Excellent,Faisalabad,Partial,No Accident,11,7710
+381,Nissan,Patrol,2015,170614,3000,Petrol,Manual,1,Good,Islamabad,Full,No Accident,11,14510
+383,Toyota,Yaris,2020,103897,1300,Petrol,Manual,1,Good,Karachi,Full,No Accident,7,9910
+384,Kia,Sorento,2020,125824,2500,CNG,Manual,1,Excellent,Gujranwala,Full,Minor Accident,10,14890
+385,Hyundai,Santa Fe,2007,82141,4000,Petrol,Automatic,1,Fair,Rawalpindi,,Minor Accident,9,2000
+386,Suzuki,Vitara,2023,83940,1500,Petrol,Automatic,3,,Islamabad,Partial,No Accident,18,13450
+387,Suzuki,Swift,2012,350000,1300,CNG,CVT,2,Fair,Islamabad,Partial,No Accident,8,2000
+388,Nissan,Patrol,2019,133497,4000,Diesel,Manual,1,Excellent,Multan,Full,No Accident,15,25610
+389,Toyota,RAV4,2019,133619,2200,Petrol,CVT,1,Excellent,Peshawar,Full,No Accident,11,12630
+390,Nissan,Juke,2016,220751,2000,CNG,CVT,3,Excellent,Multan,Partial,No Accident,15,4370
+391,Honda,CR-V,2015,199443,2400,Petrol,Manual,3,Fair,Faisalabad,Full,No Accident,14,4700
+392,Chevrolet,Malibu,2017,139806,2000,Petrol,DCT,3,Fair,Peshawar,Full,Minor Accident,9,4820
+394,Hyundai,Sonata,2007,350000,1300,Petrol,Manual,2,Fair,Gujranwala,Full,Minor Accident,5,2000
+395,Honda,CR-V,2014,157491,1800,Diesel,Manual,1,Good,Faisalabad,Partial,Minor Accident,10,4280
+396,Honda,Accord,2016,350000,1300,Petrol,CVT,1,Fair,Karachi,Full,Minor Accident,10,3440
+397,Nissan,Juke,2009,228637,1600,Petrol,Manual,1,Fair,Lahore,Full,Minor Accident,4,2000
+398,Toyota,Corolla,2018,90482,1800,Petrol,CVT,2,Fair,Gujranwala,Partial,Major Accident,16,4290
+399,Toyota,Corolla,2018,100543,1500,CNG,Automatic,3,Excellent,Sialkot,Full,No Accident,10,8330
+401,Suzuki,Alto,2012,320498,800,Petrol,Automatic,2,Poor,Gujranwala,Partial,No Accident,6,2000
+403,Ford,Escape,2016,140396,2500,CNG,Manual,2,Fair,Karachi,Partial,Minor Accident,14,4680
+405,Hyundai,Tucson,2018,131070,2200,Petrol,CVT,1,Excellent,Peshawar,Full,No Accident,17,11140
+406,Toyota,Land Cruiser,2019,62821,3500,Diesel,Automatic,1,Excellent,Faisalabad,Full,No Accident,8,41600
+408,Mercedes-Benz,S-Class,2019,102855,3500,Petrol,CVT,4,Excellent,Faisalabad,Full,Minor Accident,19,28480
+409,Toyota,Prius,2017,139552,1300,Hybrid,Manual,2,Good,Karachi,Full,Minor Accident,13,6870
+411,BMW,7 Series,2011,267695,3500,CNG,Automatic,3,Good,Peshawar,Full,Minor Accident,20,4720
+412,Honda,Civic,2012,202186,1800,Petrol,Manual,3,Fair,Multan,Partial,No Accident,15,2000
+413,Toyota,RAV4,2012,215709,2200,Petrol,Manual,5,Fair,Peshawar,Partial,Minor Accident,3,2000
+414,Toyota,RAV4,2021,85811,2400,Petrol,Automatic,4,Excellent,Peshawar,Partial,Minor Accident,13,10830
+415,Honda,HR-V,2017,90637,1600,Petrol,CVT,3,Excellent,Sialkot,Full,No Accident,14,8380
+416,Kia,Picanto,2021,85502,1000,Petrol,Manual,1,Excellent,Rawalpindi,Full,No Accident,12,8730
+417,Volkswagen,Tiguan,2021,73552,1800,Petrol,CVT,2,Excellent,Multan,Partial,No Accident,15,16920
+418,Kia,Rio,2012,285510,1500,Petrol,Automatic,5,Fair,Lahore,Partial,Major Accident,11,2000
+419,Mercedes-Benz,S-Class,2012,205463,2500,Petrol,Automatic,3,Good,Karachi,,No Accident,19,9910
+420,Toyota,Hilux,2016,88174,2400,Petrol,Manual,4,Good,Sialkot,Full,Minor Accident,7,5610
+421,Toyota,Camry,2017,111378,1800,Petrol,Automatic,1,Good,Rawalpindi,Full,No Accident,14,8860
+422,Suzuki,Alto,2020,68843,1000,Petrol,CVT,3,Excellent,Quetta,Partial,No Accident,11,4700
+423,Honda,City,2015,152979,1500,Petrol,Automatic,4,Good,Karachi,Full,No Accident,9,4280
+424,Chevrolet,Spark,2021,78741,660,Petrol,Automatic,4,Excellent,Sialkot,Partial,No Accident,17,7280
+425,Toyota,Land Cruiser,2018,132145,3500,Petrol,Manual,3,Excellent,Islamabad,,No Accident,15,27010
+426,Suzuki,Alto,2024,32801,800,CNG,Manual,5,Excellent,Rawalpindi,Full,No Accident,12,9850
+428,Toyota,Fortuner,2016,112841,2500,Diesel,Manual,2,Good,Rawalpindi,Full,No Accident,11,10550
+429,Kia,Cerato,2019,94352,2000,Petrol,Automatic,2,Fair,Quetta,Partial,No Accident,16,7200
+431,Honda,CR-V,2011,272220,1800,Petrol,Automatic,2,Fair,Peshawar,Full,No Accident,13,2530
+432,Volvo,XC90,2016,257007,2000,Petrol,Automatic,2,Poor,Multan,Partial,No Accident,20,5090
+433,Nissan,Juke,2021,63467,1500,Petrol,Manual,3,Excellent,Gujranwala,Full,No Accident,13,11260
+434,Toyota,Corolla,2007,245754,1300,CNG,Automatic,3,Fair,Multan,Full,Major Accident,4,2000
+435,Honda,HR-V,2011,120547,2000,Diesel,Manual,1,Fair,Islamabad,Partial,No Accident,6,2290
+436,Toyota,Yaris,2022,45473,1200,Diesel,Automatic,3,Excellent,Quetta,Partial,No Accident,16,10500
+437,Hyundai,i10,2022,98092,660,Petrol,Manual,3,Excellent,Multan,,No Accident,10,7530
+439,Honda,Civic,2016,185045,1500,Petrol,CVT,3,Fair,Faisalabad,,Minor Accident,14,2910
+440,Lexus,IS,2018,134477,1600,Petrol,Automatic,1,Excellent,Faisalabad,Full,No Accident,19,15200
+441,Suzuki,Alto,2022,82376,1000,Petrol,Manual,1,Fair,Peshawar,Full,No Accident,9,6330
+442,Hyundai,Tucson,2016,194773,2500,CNG,Automatic,2,Fair,Islamabad,Partial,No Accident,11,5070
+444,Suzuki,Alto,2012,183589,800,Diesel,Automatic,3,Fair,Gujranwala,Full,No Accident,3,2000
+445,Toyota,Land Cruiser,2012,180658,3500,Petrol,Automatic,3,Fair,Faisalabad,Full,Minor Accident,3,7350
+446,Volkswagen,Tiguan,2019,91986,2200,Petrol,CVT,3,Good,Peshawar,,No Accident,20,10200
+447,Kia,Cerato,2013,209900,1300,CNG,Manual,3,Good,Islamabad,Full,No Accident,13,3020
+449,Suzuki,Wagon R,2007,326865,800,CNG,Automatic,2,Poor,Quetta,Partial,No Accident,0,2000
+450,Nissan,Note,2015,104077,1300,Petrol,Automatic,1,,Islamabad,Partial,Minor Accident,6,2000
+451,Hyundai,Santa Fe,2020,104489,4000,Petrol,Automatic,3,Good,,Partial,Minor Accident,12,14470
+453,Kia,Rio,2014,191701,1000,Petrol,Manual,3,Good,Peshawar,,No Accident,14,2270
+454,Toyota,Hilux,2020,122165,2500,Diesel,Manual,1,Good,,Full,No Accident,11,17380
+455,Kia,Cerato,2020,77966,1600,Petrol,CVT,3,Good,Peshawar,,Major Accident,12,4540
+456,Volkswagen,Jetta,2019,21592,1500,Petrol,CVT,1,Excellent,Gujranwala,Partial,No Accident,15,10930
+457,Chevrolet,Spark,2020,60208,1000,Diesel,Manual,3,Excellent,Faisalabad,Full,Major Accident,14,5650
+458,Ford,Ranger,2023,43874,2200,CNG,Automatic,1,Excellent,Faisalabad,Full,No Accident,13,30440
+459,Subaru,XV,2013,350000,1500,Petrol,Manual,3,Poor,Multan,Partial,No Accident,13,2000
+460,Audi,A8,2016,197220,3500,Petrol,Automatic,2,Good,Sialkot,Full,No Accident,16,15970
+461,Suzuki,Bolan,2014,141395,800,Petrol,CVT,2,Fair,Lahore,Full,No Accident,4,2000
+462,Hyundai,i10,2024,35946,660,Diesel,Automatic,1,Good,Peshawar,Full,No Accident,17,12200
+463,Hyundai,i10,2021,68356,800,Petrol,Manual,1,Excellent,Lahore,Full,No Accident,13,11390
+464,Toyota,Hilux,2018,157932,2500,Petrol,Manual,3,Good,Peshawar,Full,Minor Accident,13,6690
+465,Toyota,Yaris,2021,124138,1500,Petrol,Automatic,1,Good,Karachi,Full,No Accident,11,11590
+466,Toyota,Prius,2020,99800,1000,Hybrid,Manual,3,Fair,Gujranwala,Partial,No Accident,12,7720
+467,Ford,Focus,2018,207860,1500,CNG,Manual,1,Good,Faisalabad,Partial,Minor Accident,12,4490
+468,Ford,Escape,2018,120021,1800,Petrol,Automatic,2,Excellent,Quetta,,No Accident,13,8350
+469,Honda,City,2015,98669,1800,Petrol,Manual,3,Good,Faisalabad,Partial,Minor Accident,8,2470
+471,Nissan,Patrol,2021,78965,3500,Diesel,Manual,1,Good,Lahore,Full,No Accident,14,36790
+472,Suzuki,Bolan,2024,51815,800,Petrol,Automatic,3,Good,Faisalabad,Partial,No Accident,12,8620
+473,Ford,Ranger,2017,64848,3000,Petrol,Manual,2,Good,Faisalabad,Full,No Accident,14,10670
+474,Ford,Explorer,2021,116137,2500,Petrol,Manual,2,Excellent,Sialkot,Partial,No Accident,19,21400
+475,Ford,Fiesta,2016,222949,1500,Petrol,Manual,1,Fair,Sialkot,Partial,No Accident,10,2540
+476,Suzuki,Swift,2014,117244,1200,Petrol,Manual,4,Good,Multan,Full,No Accident,6,2100
+477,Hyundai,Elantra,2020,99591,1300,Petrol,Automatic,2,Excellent,Sialkot,Partial,No Accident,15,10970
+478,Toyota,Land Cruiser,2016,192822,2500,Petrol,Manual,2,Poor,Islamabad,Partial,No Accident,11,10230
+479,Nissan,Patrol,2011,230087,3000,Petrol,Manual,3,Good,Lahore,Full,No Accident,6,6520
+480,Audi,Q5,2017,159216,3000,Petrol,Automatic,3,Fair,Lahore,Full,No Accident,16,9100
+481,BMW,7 Series,2014,123115,3500,Petrol,Automatic,5,Fair,Islamabad,Partial,Major Accident,14,5410
+482,Toyota,Camry,2018,120739,1800,Petrol,CVT,1,Good,Sialkot,Full,No Accident,14,9510
+484,Subaru,Outback,2010,258681,2200,Petrol,Automatic,1,Good,Multan,Partial,Minor Accident,8,2130
+485,Ford,Escape,2006,350000,1800,Petrol,Automatic,4,Poor,Lahore,Partial,Minor Accident,5,2000
+487,Toyota,RAV4,2023,31846,2500,Diesel,Automatic,1,Excellent,Rawalpindi,Full,No Accident,12,29110
+488,Suzuki,Wagon R,2022,65798,800,Diesel,Manual,1,Excellent,Quetta,Partial,No Accident,10,6760
+489,Subaru,Outback,2015,183706,2400,Petrol,Automatic,1,Good,Peshawar,Partial,No Accident,14,5470
+490,Kia,Picanto,2018,87606,800,Petrol,CVT,3,Good,Karachi,Full,No Accident,10,5360
+491,Suzuki,Alto,2020,92332,660,CNG,,1,Good,Quetta,Full,No Accident,11,4590
+492,Suzuki,Wagon R,2016,102560,1000,Petrol,Manual,1,Fair,Peshawar,Full,No Accident,10,2390
+493,BMW,1 Series,2015,131252,2000,,Automatic,1,Excellent,Multan,Partial,Minor Accident,17,5910
+494,Mercedes-Benz,S-Class,2015,125252,1600,Hybrid,Automatic,2,Excellent,Gujranwala,Partial,No Accident,18,19090
+497,Nissan,X-Trail,2016,169969,2200,Petrol,Manual,1,Excellent,Lahore,Full,No Accident,8,7800
+498,BMW,7 Series,2021,96454,1600,Petrol,Automatic,2,Excellent,Islamabad,Full,Minor Accident,25,52590
+499,Ford,Ranger,2014,201756,2500,Diesel,Manual,2,Excellent,Gujranwala,Partial,Minor Accident,13,5120
+500,Kia,Cerato,2024,28738,1600,Petrol,Manual,1,Excellent,Quetta,Full,Minor Accident,16,21110
+501,Hyundai,Elantra,2014,122296,1600,CNG,Automatic,2,Excellent,Gujranwala,Partial,Minor Accident,3,3710
+502,Honda,Civic,2016,142174,1300,Petrol,CVT,3,Fair,Lahore,Partial,No Accident,10,4840
+503,Honda,HR-V,2012,58671,1800,Petrol,Automatic,2,Good,Karachi,Partial,Minor Accident,7,2580
+504,Honda,City,2021,97242,1300,Petrol,CVT,1,,Multan,Full,No Accident,18,12970
+505,Mitsubishi,Outlander,2020,113813,2000,Petrol,Automatic,3,Good,Multan,Partial,Minor Accident,16,8410
+508,Ford,Focus,2014,135505,1500,CNG,Automatic,4,Excellent,Peshawar,,No Accident,14,2770
+509,Nissan,Sunny,2013,203392,1800,,Automatic,2,Excellent,Peshawar,Partial,No Accident,11,2760
+510,Toyota,Fortuner,2018,101480,2500,Diesel,Automatic,3,Good,Multan,Partial,No Accident,12,12540
+511,Volvo,XC90,2020,93825,2500,Petrol,Automatic,2,Excellent,,Full,No Accident,15,34640
+513,Mazda,Mazda3,2013,278323,1300,Petrol,Manual,3,Fair,Karachi,Partial,Minor Accident,9,2000
+515,Suzuki,Wagon R,2020,99130,660,CNG,Manual,1,Excellent,Karachi,Partial,No Accident,9,5150
+516,Nissan,Altima,2019,68397,2000,Diesel,Automatic,2,Excellent,Rawalpindi,Partial,Minor Accident,17,11470
+517,Subaru,Outback,2022,43647,1800,Diesel,Automatic,3,,Rawalpindi,Full,,14,26430
+518,Kia,Cerato,2012,81482,1300,Petrol,Manual,3,Good,Peshawar,Partial,No Accident,8,2510
+519,Mercedes-Benz,A-Class,2014,178579,2500,Petrol,DCT,3,Good,,Full,No Accident,16,4760
+520,Ford,Mustang,2012,277557,5000,Petrol,Manual,3,Fair,Karachi,,Major Accident,7,2000
+521,Audi,A6,2016,135170,3500,Petrol,Automatic,4,,Sialkot,Partial,Major Accident,22,6660
+522,Chevrolet,Spark,2015,118207,660,CNG,Automatic,4,Excellent,Gujranwala,,No Accident,14,2070
+523,Mitsubishi,Lancer,2023,39219,1600,Petrol,CVT,3,Good,Multan,Full,No Accident,20,15970
+524,Honda,City,2017,172895,1500,Petrol,Automatic,2,Good,Karachi,,No Accident,9,4830
+525,Toyota,Camry,2012,165061,2000,Hybrid,Manual,3,Good,Peshawar,Full,Minor Accident,8,2810
+526,Ford,Ranger,2018,87676,3000,Petrol,Manual,2,Fair,Lahore,Full,No Accident,14,10690
+528,Mitsubishi,Mirage,2012,265220,1000,Petrol,Manual,5,Poor,Karachi,,Minor Accident,13,2000
+529,Suzuki,Vitara,2020,39726,1500,Petrol,CVT,2,Excellent,Lahore,Partial,No Accident,11,11960
+531,BMW,1 Series,2021,87300,3500,Hybrid,DCT,1,Good,Islamabad,Full,No Accident,25,20950
+533,Kia,Sportage,2013,233425,2000,CNG,,2,Poor,Multan,Partial,No Accident,10,2000
+534,Nissan,Note,2018,130562,1300,Petrol,Manual,2,Good,Rawalpindi,Full,No Accident,10,5290
+535,Chevrolet,Cruze,2022,72963,1300,Petrol,Automatic,1,Good,Lahore,Full,No Accident,11,16790
+537,Mazda,Mazda3,2022,69395,1500,Petrol,DCT,2,Excellent,Sialkot,Full,Minor Accident,21,14590
+540,Suzuki,Cultus,2015,120191,1300,Petrol,Manual,2,Poor,Islamabad,Partial,No Accident,7,2000
+541,Hyundai,Santa Fe,2012,227497,2500,Diesel,Automatic,5,Good,Peshawar,Partial,Minor Accident,7,2400
+542,Toyota,Corolla,2020,67682,1500,Petrol,CVT,2,Good,Quetta,,No Accident,11,8680
+543,Suzuki,Bolan,2018,109803,800,Petrol,Manual,2,Fair,Sialkot,Full,No Accident,14,2910
+544,Mazda,CX-5,2012,151768,2200,Petrol,Automatic,4,Fair,Peshawar,Partial,Minor Accident,12,2170
+545,Honda,CR-V,2017,134949,2500,Petrol,DCT,4,Excellent,Faisalabad,Partial,Minor Accident,6,7380
+546,Subaru,Impreza,2012,258704,1300,Petrol,Automatic,1,Fair,Karachi,Partial,No Accident,8,2010
+547,Honda,Accord,2018,75123,1800,Petrol,Automatic,2,Excellent,Lahore,Full,Minor Accident,17,12480
+550,Honda,Civic,2014,113861,1300,Petrol,Automatic,3,Fair,Multan,Full,No Accident,9,3420
+551,Nissan,Patrol,2020,80556,4000,Diesel,Automatic,1,Excellent,Sialkot,Full,No Accident,13,32730
+552,Toyota,Yaris,2022,88430,1500,Petrol,Manual,4,Excellent,Faisalabad,,Minor Accident,15,7710
+556,Chevrolet,Malibu,2018,91744,1500,Petrol,DCT,1,Excellent,Multan,Full,Minor Accident,16,9090
+558,Suzuki,Cultus,2015,302274,1000,Petrol,Automatic,3,Good,Gujranwala,Partial,Minor Accident,7,2000
+559,Nissan,Patrol,2014,40201,3500,Diesel,Manual,2,Good,Peshawar,Partial,No Accident,8,10070
+561,Honda,CR-V,2019,126212,2200,Petrol,CVT,3,Excellent,Rawalpindi,Partial,No Accident,10,12430
+562,Suzuki,Wagon R,2019,123751,1000,Petrol,Manual,3,Excellent,Karachi,Partial,No Accident,12,4550
+563,Suzuki,Bolan,2022,71333,1300,Petrol,Manual,1,Excellent,Sialkot,Full,No Accident,12,7600
+564,Nissan,X-Trail,2017,153787,1800,Petrol,CVT,5,Good,Islamabad,Partial,Minor Accident,15,5930
+565,Hyundai,Elantra,2015,274181,1800,Petrol,Manual,1,Fair,Rawalpindi,Full,No Accident,12,2870
+566,BMW,7 Series,2019,100184,1600,Petrol,Automatic,5,Excellent,Peshawar,Partial,Minor Accident,20,23360
+567,Ford,Fiesta,2018,194984,1000,Petrol,Automatic,1,Fair,Faisalabad,Full,No Accident,13,3660
+568,Mazda,Mazda6,2011,350000,1600,Petrol,Manual,2,Fair,Rawalpindi,Partial,No Accident,8,2000
+569,Honda,CR-V,2011,37639,2400,Petrol,Manual,1,Excellent,Gujranwala,Full,No Accident,8,3910
+570,Hyundai,Tucson,2024,24616,2500,Petrol,Automatic,1,Good,Islamabad,Full,No Accident,16,33510
+571,Nissan,X-Trail,2019,175168,1800,Petrol,Automatic,4,Good,Peshawar,Partial,Minor Accident,19,7620
+572,Toyota,Hilux,2014,190118,2200,Petrol,Manual,3,Good,Gujranwala,,No Accident,10,3430
+573,Toyota,Yaris,2019,88868,1500,Petrol,Automatic,4,Excellent,Lahore,,No Accident,17,7520
+574,Suzuki,Swift,2019,62178,1300,Petrol,Automatic,2,Excellent,Multan,Full,No Accident,10,8000
+575,Suzuki,Vitara,2013,202267,1500,Diesel,CVT,4,Poor,Multan,Full,Major Accident,4,2000
+577,Kia,Rio,2018,159668,1000,,Manual,3,Excellent,Lahore,Partial,Minor Accident,9,5380
+578,Mazda,Mazda3,2020,57661,1600,Petrol,Automatic,2,Good,Quetta,Full,No Accident,11,10690
+579,Honda,BR-V,2018,170675,2000,Petrol,Automatic,3,Fair,Karachi,Partial,No Accident,10,5000
+580,Subaru,Impreza,2012,201523,1800,Petrol,Manual,3,Good,Multan,,No Accident,12,2000
+582,Honda,Civic,2016,76568,2000,Petrol,Automatic,2,Good,Lahore,Partial,No Accident,9,6070
+584,Suzuki,Bolan,2016,185711,800,Petrol,Automatic,3,Fair,Rawalpindi,Full,No Accident,9,2000
+585,Honda,Accord,2017,87748,2000,Petrol,Automatic,1,Good,Faisalabad,Full,No Accident,11,11160
+587,Nissan,Patrol,2018,82634,4000,Diesel,Manual,4,Excellent,Islamabad,Partial,Major Accident,17,16990
+589,Subaru,Impreza,2023,56763,1500,Petrol,Manual,1,Fair,Faisalabad,Full,No Accident,16,13560
+590,Mitsubishi,Mirage,2010,331939,660,Diesel,Manual,2,Poor,Islamabad,Full,No Accident,9,2000
+591,Honda,HR-V,2014,116099,1800,CNG,Manual,1,Fair,Gujranwala,Partial,Minor Accident,9,3590
+594,Suzuki,Alto,2021,58256,660,CNG,Manual,1,Excellent,Rawalpindi,Full,Minor Accident,10,7540
+595,Hyundai,Santa Fe,2017,115003,3000,Diesel,Manual,5,Fair,Rawalpindi,Partial,Major Accident,12,4850
+596,Kia,Sportage,2019,57605,2400,Petrol,DCT,5,Excellent,Islamabad,,No Accident,14,9780
+598,Hyundai,Santa Fe,2015,174581,3500,Petrol,Automatic,2,Excellent,Rawalpindi,Full,No Accident,13,8580
+599,Kia,Rio,2017,102643,1500,Petrol,Manual,3,Excellent,Sialkot,,No Accident,14,4230
+600,Volkswagen,Golf,2008,235877,1300,Petrol,Automatic,3,Poor,Multan,,No Accident,10,2000
+601,Suzuki,Bolan,2017,163670,800,Petrol,Manual,5,Good,Karachi,Full,Minor Accident,12,2130
+603,Ford,Focus,2008,350000,1500,Petrol,Manual,4,Poor,,Partial,No Accident,5,2000
+604,Mazda,CX-5,2023,60734,2400,Petrol,Automatic,2,Excellent,Gujranwala,Full,No Accident,15,27620
+606,BMW,5 Series,2021,63575,1600,Petrol,CVT,1,Fair,Quetta,Partial,No Accident,23,23230
+607,Hyundai,Santa Fe,2010,282765,2500,Diesel,Automatic,1,Fair,Karachi,,Minor Accident,6,2000
+608,Mazda,Mazda2,2015,19621,1500,Diesel,Automatic,2,Excellent,Faisalabad,Full,No Accident,13,5490
+609,Mercedes-Benz,E-Class,2021,69318,1600,,DCT,2,Excellent,Karachi,Full,No Accident,11,35800
+610,Honda,HR-V,2019,69736,2000,Petrol,CVT,1,Good,Lahore,Full,No Accident,11,13230
+612,Nissan,X-Trail,2017,141605,2200,Petrol,Manual,4,Fair,Quetta,,No Accident,15,4810
+613,Suzuki,Vitara,2015,158686,2000,Hybrid,Manual,2,Fair,Lahore,Full,Minor Accident,12,3190
+614,Kia,Sorento,2013,109173,4000,Petrol,Automatic,3,Good,Peshawar,Partial,No Accident,9,4580
+615,Ford,Mustang,2019,99366,5000,Diesel,Automatic,2,Excellent,Quetta,Full,No Accident,11,16250
+616,Suzuki,Bolan,2018,112681,800,Diesel,Manual,1,Excellent,Gujranwala,Full,No Accident,10,4290
+618,Nissan,Note,2018,111667,1500,CNG,Automatic,1,Excellent,Quetta,Full,No Accident,10,6080
+619,Kia,Rio,2013,28885,1500,Petrol,Automatic,3,Good,Peshawar,,No Accident,3,2000
+620,Nissan,Sunny,2020,93527,1300,Diesel,Automatic,4,Excellent,Karachi,Full,No Accident,9,10430
+621,Lexus,LX,2013,291322,2500,Petrol,DCT,1,Excellent,Multan,Full,No Accident,19,8980
+623,Hyundai,Elantra,2019,84919,2000,Diesel,CVT,3,Good,Quetta,Partial,No Accident,7,7870
+626,Kia,Rio,2011,339902,1000,Petrol,Manual,4,Poor,Islamabad,,Major Accident,8,2000
+627,Ford,Ranger,2010,204533,2200,Diesel,Manual,3,,Lahore,,No Accident,7,2100
+628,Mercedes-Benz,E-Class,2017,211226,3000,Petrol,Automatic,1,Excellent,Karachi,Full,No Accident,16,16500
+629,Ford,Mustang,2022,33322,5000,Petrol,Automatic,2,Good,Lahore,Full,No Accident,15,36920
+630,Kia,Sportage,2021,103788,1800,Diesel,CVT,3,Good,Faisalabad,Full,No Accident,11,15130
+632,Chevrolet,Captiva,2014,122687,1800,Petrol,Automatic,3,Fair,Faisalabad,Full,Major Accident,13,2550
+633,Toyota,Prius,2006,314371,1000,Hybrid,,3,Fair,Rawalpindi,,Minor Accident,4,2000
+634,Suzuki,Alto,2009,350000,800,CNG,Automatic,5,Poor,Gujranwala,Partial,Major Accident,7,2000
+635,Toyota,Yaris,2017,93095,1000,Petrol,Automatic,2,Excellent,Gujranwala,Full,No Accident,14,7840
+637,Mazda,Mazda2,2019,127562,1000,Diesel,Manual,1,Excellent,Peshawar,Full,No Accident,19,8420
+638,Subaru,XV,2008,350000,1500,Petrol,,3,Fair,Peshawar,,Minor Accident,10,2000
+639,Toyota,RAV4,2011,192664,2200,Petrol,Automatic,2,Fair,Lahore,Full,No Accident,7,3180
+640,Suzuki,Swift,2011,262995,1000,CNG,Manual,1,Fair,Multan,Partial,Minor Accident,3,2000
+641,Chevrolet,Aveo,2019,78671,1500,Petrol,Automatic,1,Excellent,Karachi,Full,No Accident,14,10450
+642,Mitsubishi,Pajero,2022,35243,3000,Petrol,Manual,2,Excellent,Peshawar,Full,,15,30050
+643,Suzuki,Alto,2017,231543,1000,Petrol,Manual,2,Good,Rawalpindi,Full,No Accident,12,2290
+644,Honda,Accord,2012,350000,1500,Petrol,Manual,1,Fair,Sialkot,Full,No Accident,8,2000
+645,Mazda,CX-5,2012,168648,2000,Petrol,Manual,2,Poor,Lahore,Full,No Accident,13,2350
+646,Suzuki,Cultus,2021,29909,1000,Petrol,Manual,4,Good,Multan,Partial,Minor Accident,13,4740
+647,Suzuki,Bolan,2013,119517,800,Petrol,Automatic,2,Excellent,Multan,Partial,No Accident,10,2000
+648,Suzuki,Vitara,2018,76138,1600,Petrol,Automatic,1,Poor,Multan,Full,Minor Accident,9,4120
+649,Toyota,Camry,2019,171155,1300,Petrol,CVT,3,Fair,Lahore,Partial,No Accident,12,7690
+652,Toyota,Corolla,2020,46726,1600,Petrol,DCT,2,Fair,Gujranwala,Partial,No Accident,19,10870
+653,Suzuki,Swift,2015,42112,1500,Petrol,Manual,2,Good,Lahore,Full,No Accident,7,3320
+654,Honda,City,2023,35441,1300,Petrol,CVT,4,Good,Gujranwala,Full,Minor Accident,16,10270
+655,Suzuki,Cultus,2014,63370,1000,CNG,CVT,3,Good,Peshawar,Full,Major Accident,10,2000
+656,Subaru,XV,2019,30299,1500,Petrol,Automatic,2,Excellent,Rawalpindi,Partial,No Accident,14,14310
+657,Toyota,Prius,2019,70701,1300,Hybrid,Automatic,5,Excellent,Gujranwala,Partial,No Accident,11,11470
+658,Honda,Civic,2023,26713,1600,Petrol,Manual,1,Excellent,Lahore,Full,No Accident,14,27810
+659,Suzuki,Bolan,2011,242810,1000,Diesel,Manual,3,Good,Lahore,,Major Accident,6,2000
+660,Toyota,Land Cruiser,2023,27916,4000,Diesel,Automatic,1,Good,Sialkot,Full,No Accident,12,76460
+661,Honda,HR-V,2021,72796,1500,Petrol,CVT,1,Excellent,Karachi,Full,No Accident,14,20710
+662,Mercedes-Benz,S-Class,2011,230313,2500,Petrol,Automatic,3,Good,Karachi,Partial,No Accident,14,7520
+663,Hyundai,Tucson,2022,74595,2400,Petrol,DCT,1,Good,Islamabad,Full,No Accident,16,26790
+664,Volkswagen,Tiguan,2011,316782,1800,CNG,Automatic,4,Fair,Faisalabad,Partial,Major Accident,5,2000
+665,Suzuki,Alto,2019,58071,800,Petrol,Manual,1,Excellent,Multan,Full,No Accident,15,5530
+666,Mercedes-Benz,S-Class,2011,29540,2000,Petrol,DCT,4,Good,Rawalpindi,,Minor Accident,18,4850
+668,Ford,Explorer,2019,164513,4000,Diesel,Manual,2,Good,Islamabad,Full,No Accident,17,14040
+669,Honda,HR-V,2016,195953,2000,Petrol,Manual,1,Excellent,Sialkot,Partial,Minor Accident,11,5690
+670,Suzuki,Wagon R,2019,100737,800,Diesel,,1,Excellent,Rawalpindi,Full,No Accident,12,5800
+671,Suzuki,Wagon R,2019,51250,800,CNG,Automatic,2,Fair,Peshawar,Partial,No Accident,5,3940
+673,Suzuki,Alto,2018,114322,800,Petrol,Automatic,1,Good,Faisalabad,Partial,No Accident,14,3800
+674,Honda,CR-V,2017,83890,2400,Petrol,Automatic,1,Excellent,Lahore,Full,Minor Accident,12,10880
+675,Chevrolet,Spark,2018,161025,800,Hybrid,Manual,3,Fair,Karachi,,No Accident,10,2310
+676,Hyundai,Santa Fe,2018,153887,3000,Petrol,Manual,3,Fair,Peshawar,Partial,Minor Accident,11,5630
+677,Suzuki,Wagon R,2019,46609,800,CNG,Manual,1,Excellent,Peshawar,Partial,No Accident,10,5240
+678,Hyundai,Tucson,2007,350000,2500,Petrol,Manual,3,Fair,Lahore,,Major Accident,8,2000
+679,Kia,Cerato,2019,180393,1800,Diesel,DCT,1,Good,Lahore,Full,No Accident,9,8030
+680,Nissan,Patrol,2014,179227,3500,Diesel,Automatic,2,Excellent,Peshawar,Full,No Accident,8,11840
+681,Suzuki,Cultus,2019,89718,1200,Petrol,Automatic,1,Good,Quetta,Full,Minor Accident,12,4560
+682,Honda,City,2014,152074,2000,Petrol,Automatic,1,Good,Rawalpindi,Partial,No Accident,6,3920
+684,Suzuki,Cultus,2013,130052,1200,CNG,Manual,2,Fair,Quetta,Full,Minor Accident,6,2000
+685,Suzuki,Wagon R,2019,250149,660,Petrol,CVT,2,Fair,Islamabad,Partial,Minor Accident,10,2300
+686,Honda,CR-V,2009,152948,2200,Petrol,Manual,1,Fair,Gujranwala,Full,No Accident,5,2000
+689,Mitsubishi,Pajero,2018,100312,3500,Diesel,Automatic,1,Fair,Rawalpindi,Full,No Accident,11,12780
+690,Honda,BR-V,2017,182969,1600,Petrol,Manual,2,,Faisalabad,Full,No Accident,14,5410
+691,Nissan,X-Trail,2020,119676,2000,Petrol,Automatic,2,Good,Multan,,No Accident,11,9780
+692,Toyota,Fortuner,2021,119051,2500,Diesel,Manual,1,Good,Gujranwala,Partial,No Accident,16,18040
+693,Toyota,Prius,2015,114289,1300,Hybrid,Automatic,1,Fair,Islamabad,Partial,Major Accident,8,3490
+695,Toyota,Land Cruiser,2023,51212,3500,Diesel,Automatic,2,Excellent,Gujranwala,Full,No Accident,13,82510
+696,Honda,HR-V,2021,101614,2000,Petrol,Automatic,2,Good,Quetta,Partial,No Accident,19,11440
+697,Suzuki,Vitara,2008,255175,1800,Petrol,Automatic,5,Fair,Peshawar,Partial,Minor Accident,0,2000
+698,Mitsubishi,ASX,2021,53143,1500,,Automatic,5,Excellent,Gujranwala,Full,No Accident,18,11680
+699,Subaru,XV,2021,81022,1600,Petrol,Automatic,5,Good,Peshawar,Full,No Accident,23,11310
+700,Suzuki,Vitara,2019,117512,1500,Petrol,Manual,1,Excellent,Quetta,Partial,No Accident,13,8130
+702,Mitsubishi,Mirage,2020,134501,1000,Petrol,Manual,1,Excellent,Multan,Full,No Accident,17,7750
+703,Mercedes-Benz,E-Class,2022,59069,3500,Petrol,Automatic,2,Good,Karachi,Full,No Accident,23,44520
+704,Toyota,Fortuner,2015,140688,2500,Petrol,Manual,1,Poor,Peshawar,Full,No Accident,8,4700
+705,Mercedes-Benz,E-Class,2021,86610,2000,Petrol,CVT,3,Excellent,Multan,Full,No Accident,23,35260
+706,Suzuki,Cultus,2014,207356,1200,Petrol,Manual,1,Good,Lahore,Full,Minor Accident,9,2170
+707,Suzuki,Cultus,2016,149578,1200,Petrol,Automatic,1,Good,Islamabad,Full,No Accident,11,4930
+708,Toyota,RAV4,2020,89340,2400,Petrol,DCT,2,Good,Faisalabad,Full,No Accident,16,15150
+709,Ford,Ranger,2022,56921,3000,Petrol,Automatic,1,Excellent,Islamabad,Full,No Accident,12,37380
+710,Lexus,NX,2017,134727,3500,Petrol,Automatic,2,Excellent,Sialkot,Partial,No Accident,20,11790
+711,Suzuki,Bolan,2017,257473,1300,Petrol,CVT,2,Poor,Islamabad,Partial,No Accident,13,2000
+712,Toyota,Yaris,2014,123129,1000,Petrol,Manual,3,Fair,Multan,Partial,Minor Accident,10,2000
+713,Audi,A3,2016,13540,2000,Petrol,Automatic,1,Excellent,Sialkot,Partial,No Accident,18,7800
+714,Mazda,Mazda6,2020,86513,2000,Petrol,Automatic,4,Good,Rawalpindi,Partial,Major Accident,13,7470
+715,Audi,Q5,2021,125864,4000,Petrol,CVT,5,Excellent,Faisalabad,Full,No Accident,19,20240
+716,Audi,A8,2019,125470,2500,Petrol,DCT,4,Good,Multan,Full,No Accident,23,23840
+717,Hyundai,Accent,2018,92269,1300,Petrol,Manual,1,Good,Multan,Full,No Accident,12,7200
+718,Chevrolet,Cruze,2021,53269,1300,Diesel,CVT,3,Good,Karachi,Partial,No Accident,10,11360
+719,Subaru,XV,2018,158066,1800,Petrol,Automatic,2,Good,Rawalpindi,,Major Accident,15,4860
+720,Suzuki,Bolan,2020,119113,800,Petrol,Manual,5,Good,Sialkot,,No Accident,12,2530
+721,Chevrolet,Captiva,2023,26629,2500,Diesel,DCT,2,Excellent,Lahore,Full,No Accident,15,32320
+723,Audi,A3,2011,141195,2500,Petrol,Automatic,4,Fair,Lahore,,No Accident,19,2030
+724,Ford,Fiesta,2018,74223,1500,Petrol,Manual,1,Excellent,Peshawar,Full,No Accident,18,8690
+725,Toyota,Camry,2019,54185,1300,Petrol,Automatic,2,Excellent,,Full,No Accident,14,16530
+726,Honda,HR-V,2016,173353,1600,Petrol,DCT,1,Excellent,Karachi,Partial,No Accident,10,7340
+727,Suzuki,Vitara,2023,38752,1800,Petrol,Manual,1,Good,Karachi,Full,No Accident,7,21100
+728,Toyota,Hilux,2010,226345,2400,Petrol,Manual,4,Good,Lahore,Partial,Minor Accident,7,2000
+729,Mercedes-Benz,C-Class,2021,103542,1600,Petrol,DCT,3,Good,Faisalabad,Partial,Minor Accident,23,17570
+730,Kia,Cerato,2013,149483,1600,Petrol,,3,Fair,Karachi,Partial,No Accident,9,2610
+731,Kia,Picanto,2007,294003,1000,Petrol,,1,Good,Faisalabad,Partial,Minor Accident,6,2000
+732,Kia,Cerato,2020,155131,2000,Diesel,,2,Good,Multan,Full,No Accident,18,7870
+733,Suzuki,Alto,2014,122838,660,Petrol,CVT,3,Fair,Gujranwala,Partial,No Accident,9,2000
+734,Toyota,Corolla,2017,108327,2000,Petrol,CVT,2,Good,Lahore,Full,No Accident,13,8380
+735,Suzuki,Swift,2015,251942,1300,Petrol,Manual,1,Good,Karachi,Full,No Accident,9,2860
+736,Audi,A8,2013,238838,2500,Petrol,Automatic,3,Good,Sialkot,Full,Major Accident,20,5970
+737,Honda,Civic,2013,227120,1800,Petrol,Automatic,3,Fair,Multan,Partial,Major Accident,10,2000
+738,Chevrolet,Spark,2020,80284,800,Petrol,Manual,2,Excellent,Karachi,Full,No Accident,15,7350
+739,Ford,Focus,2013,175861,1300,Petrol,,3,Fair,Quetta,,Major Accident,10,2000
+740,Honda,BR-V,2010,88690,1800,Petrol,Automatic,1,Good,Peshawar,,Minor Accident,5,2000
+741,Honda,CR-V,2023,38673,2200,Petrol,CVT,2,Excellent,Karachi,Partial,No Accident,14,26850
+742,Suzuki,Alto,2019,151613,800,Petrol,Manual,1,Excellent,Karachi,Partial,No Accident,6,4790
+744,Nissan,X-Trail,2021,49168,2500,Petrol,CVT,1,Good,Peshawar,Full,No Accident,9,16860
+745,Toyota,Fortuner,2009,306448,2500,Petrol,Automatic,5,Fair,Multan,Partial,No Accident,10,2000
+746,Mitsubishi,ASX,2012,156930,1500,Petrol,Automatic,3,Fair,Lahore,Partial,Minor Accident,15,2450
+747,Suzuki,Alto,2014,161013,800,Petrol,Manual,3,Fair,Karachi,Partial,No Accident,11,2000
+749,Toyota,Land Cruiser,2010,339385,4000,Diesel,Automatic,3,Poor,Islamabad,,Major Accident,3,2000
+751,Kia,Sportage,2021,12902,2500,Petrol,CVT,5,Excellent,Lahore,Partial,Major Accident,17,12870
+752,Suzuki,Bolan,2018,150649,1000,Diesel,Automatic,1,Good,Multan,Full,No Accident,12,3800
+753,Ford,Focus,2010,128863,1300,Diesel,Manual,2,Fair,Peshawar,Partial,No Accident,8,2000
+754,Nissan,Altima,2011,174297,2000,Petrol,Manual,5,Poor,Sialkot,,Minor Accident,8,2000
+755,Toyota,Land Cruiser,2016,131116,3500,CNG,Manual,4,Excellent,Islamabad,Full,Minor Accident,12,18280
+756,Hyundai,Santa Fe,2020,62068,2500,Petrol,Manual,1,Excellent,Sialkot,Full,No Accident,11,20370
+757,Honda,BR-V,2017,109973,2000,Petrol,DCT,1,Good,Rawalpindi,Full,No Accident,7,8450
+758,Hyundai,Elantra,2013,180009,2000,Petrol,Manual,2,Good,Faisalabad,Partial,Minor Accident,7,2390
+759,Suzuki,Wagon R,2023,45320,660,Petrol,Manual,2,Good,Sialkot,Partial,No Accident,16,8440
+760,Honda,CR-V,2018,129799,2000,Petrol,Manual,2,Good,Faisalabad,Full,No Accident,15,10390
+761,Nissan,X-Trail,2011,135846,1800,Petrol,Automatic,3,Fair,Rawalpindi,Partial,No Accident,8,2350
+762,Hyundai,Sonata,2020,59817,1300,Petrol,Automatic,1,Good,,Partial,No Accident,10,11770
+763,Suzuki,Bolan,2018,118600,800,Petrol,Manual,4,Good,Gujranwala,Partial,No Accident,8,2520
+764,Suzuki,Swift,2017,210075,1300,Petrol,Automatic,1,,Gujranwala,,No Accident,3,2720
+765,Kia,Picanto,2023,31063,660,Petrol,Manual,2,Good,Lahore,Partial,No Accident,10,11530
+766,Toyota,Yaris,2021,65203,1500,Petrol,Automatic,2,Good,Rawalpindi,,No Accident,15,10580
+767,Suzuki,Wagon R,2020,194946,1000,Petrol,CVT,1,Good,Rawalpindi,Full,No Accident,11,5000
+768,Mercedes-Benz,S-Class,2009,84236,3000,Petrol,Automatic,3,Excellent,Karachi,Full,No Accident,12,9670
+769,Toyota,Camry,2018,150298,1500,Petrol,CVT,3,Good,Multan,Partial,No Accident,9,6060
+770,Volkswagen,Golf,2017,204943,1200,Petrol,Automatic,3,Fair,Multan,Partial,No Accident,11,4610
+771,Audi,Q5,2017,232685,4000,Petrol,Automatic,2,Fair,Gujranwala,Partial,Minor Accident,16,6770
+772,Hyundai,i10,2012,199553,1000,Petrol,Manual,4,Poor,Multan,Partial,Major Accident,11,2000
+773,Nissan,Juke,2018,150591,1600,Petrol,CVT,1,Good,Sialkot,Full,No Accident,14,8470
+774,Kia,Rio,2019,211067,1000,Diesel,Manual,2,Good,Lahore,Full,No Accident,8,5570
+775,Ford,Mustang,2006,326956,3000,Petrol,Automatic,3,Poor,Quetta,Partial,No Accident,13,2000
+776,Toyota,Corolla,2020,122223,1500,Diesel,CVT,1,Excellent,Rawalpindi,Partial,No Accident,16,11820
+777,Hyundai,Santa Fe,2014,135093,4000,Petrol,Automatic,4,Good,Quetta,Full,Major Accident,11,3620
+778,Volvo,V40,2016,34576,3500,Petrol,Automatic,3,Fair,Gujranwala,Partial,No Accident,18,5000
+779,Subaru,XV,2019,84981,1800,Petrol,CVT,1,Excellent,Rawalpindi,Full,No Accident,17,14420
+781,Hyundai,i10,2015,265264,660,Petrol,Manual,1,Good,Sialkot,Partial,No Accident,15,2160
+782,Suzuki,Swift,2012,165344,1300,Hybrid,Manual,4,Fair,Gujranwala,Partial,Minor Accident,12,2000
+784,Honda,Accord,2009,350000,2000,Petrol,Manual,2,Poor,Multan,,No Accident,2,2000
+785,Hyundai,Sonata,2012,230411,1500,Diesel,Manual,3,Good,Karachi,Partial,Major Accident,7,2000
+786,Toyota,Yaris,2019,70612,1300,Petrol,Manual,1,Good,Faisalabad,Full,Minor Accident,12,7480
+787,Hyundai,i10,2011,204057,660,Petrol,Manual,5,Poor,Peshawar,Partial,No Accident,7,2000
+788,Kia,Sportage,2024,48947,2200,Diesel,DCT,1,Good,Gujranwala,Full,No Accident,10,23450
+789,Kia,Sorento,2017,215780,3000,Petrol,Manual,4,Excellent,Rawalpindi,Partial,No Accident,15,7110
+791,Honda,City,2020,256152,1300,Petrol,Automatic,1,Good,Lahore,Full,,10,7610
+792,Hyundai,i10,2017,175610,800,Petrol,CVT,1,Excellent,Rawalpindi,Partial,,10,4900
+793,Toyota,Prius,2022,65475,1300,Hybrid,Automatic,1,Excellent,Multan,Full,No Accident,17,20300
+794,Toyota,Corolla,2017,192186,1300,Diesel,CVT,2,Fair,Rawalpindi,,No Accident,11,4480
+796,Toyota,Prius,2011,223588,1300,Hybrid,Automatic,4,Fair,Rawalpindi,Partial,No Accident,7,2000
+797,Mazda,CX-3,2009,237057,1500,Petrol,Manual,5,Fair,Faisalabad,,Minor Accident,10,2000
+798,Suzuki,Alto,2007,308014,660,Petrol,Manual,5,,Lahore,Full,Major Accident,2,2000
+799,Suzuki,Cultus,2017,85375,1200,Petrol,Manual,1,Good,Karachi,Full,Minor Accident,12,4250
+800,Toyota,RAV4,2014,215765,2400,Petrol,Automatic,1,Good,Karachi,Full,Minor Accident,6,5420
+801,Suzuki,Wagon R,2011,202399,1000,Petrol,Manual,5,Good,Multan,Partial,Minor Accident,6,2000
+802,Mercedes-Benz,S-Class,2015,188108,3500,Petrol,CVT,1,Excellent,Lahore,Full,No Accident,14,17900
+804,Chevrolet,Malibu,2017,174117,2000,Petrol,Automatic,1,Good,Islamabad,Full,No Accident,16,7560
+805,Toyota,Prius,2017,100378,1000,Hybrid,Automatic,1,Fair,Rawalpindi,Full,,13,8620
+806,Suzuki,Cultus,2021,62654,1200,Hybrid,Manual,4,Excellent,Faisalabad,Full,No Accident,16,7590
+807,Subaru,Impreza,2022,82688,1500,Petrol,CVT,1,Excellent,Karachi,Partial,No Accident,16,16470
+808,Mazda,CX-3,2016,229240,1800,Petrol,Automatic,3,Good,Faisalabad,Partial,No Accident,9,3820
+809,Honda,City,2013,350000,1300,Petrol,Manual,5,Fair,Lahore,,Minor Accident,10,2000
+810,Mazda,CX-5,2022,60692,2200,Petrol,Automatic,1,Excellent,Faisalabad,Full,No Accident,16,29570
+811,Nissan,Patrol,2022,36004,2500,Diesel,Automatic,2,Excellent,Karachi,Full,No Accident,12,49050
+812,Nissan,Patrol,2016,109725,3000,Diesel,Manual,1,Good,Peshawar,Full,,11,14800
+813,Mazda,CX-5,2011,186021,2500,Diesel,Automatic,2,Excellent,Lahore,Partial,No Accident,12,4160
+814,Toyota,Corolla,2018,157455,1800,Petrol,DCT,3,Fair,Multan,Partial,No Accident,10,5480
+815,Subaru,XV,2013,209966,2000,Petrol,Automatic,2,Good,Lahore,Partial,No Accident,8,2890
+816,Subaru,XV,2018,101445,1600,Petrol,CVT,1,Good,Faisalabad,Full,No Accident,12,9500
+817,Toyota,Fortuner,2013,227425,3500,Petrol,Automatic,1,Good,Lahore,Partial,No Accident,6,5650
+818,Suzuki,Swift,2023,51859,1200,Petrol,Manual,2,Good,Sialkot,Full,No Accident,11,9090
+819,Hyundai,Santa Fe,2015,170623,4000,Diesel,Manual,2,Good,Islamabad,Partial,Major Accident,7,4100
+820,Suzuki,Wagon R,2016,158656,660,Petrol,Manual,2,Good,Quetta,Full,No Accident,7,2460
+821,Suzuki,Vitara,2018,130974,1600,Petrol,Manual,3,Fair,,Full,Minor Accident,15,4220
+822,Audi,A3,2016,148678,3500,Petrol,Automatic,3,Fair,Islamabad,Partial,Minor Accident,22,5040
+823,Toyota,Hilux,2019,104473,3000,Diesel,,3,Good,Multan,,No Accident,13,10180
+825,Suzuki,Bolan,2016,173115,800,Petrol,Manual,3,Excellent,Islamabad,Partial,No Accident,8,2420
+826,Mercedes-Benz,C-Class,2013,107366,1600,Petrol,Automatic,3,Poor,Islamabad,,No Accident,14,2690
+827,Suzuki,Vitara,2012,315772,1800,CNG,Manual,1,Good,Rawalpindi,Partial,No Accident,5,2000
+828,Nissan,Juke,2014,144375,1800,Diesel,Automatic,3,Good,Faisalabad,Partial,Minor Accident,6,3430
+829,Honda,CR-V,2021,42092,2000,Petrol,CVT,2,Excellent,Lahore,Full,No Accident,14,25830
+830,Suzuki,Swift,2014,144481,1000,CNG,CVT,3,Good,Quetta,Full,No Accident,3,2160
+831,Mazda,Mazda2,2024,26507,1300,Diesel,Manual,1,Good,Karachi,Partial,No Accident,14,16910
+832,Honda,HR-V,2022,50850,1600,Diesel,CVT,1,Excellent,Gujranwala,Full,No Accident,12,21630
+833,Hyundai,Accent,2011,305154,1200,Petrol,Manual,3,Fair,Karachi,Partial,No Accident,4,2000
+834,Volkswagen,Golf,2010,134090,1500,Petrol,Automatic,4,Good,Multan,Partial,No Accident,9,2000
+835,Suzuki,Cultus,2019,160731,1200,Petrol,Manual,3,Poor,Sialkot,,No Accident,13,2000
+836,Nissan,Patrol,2008,318331,4000,Petrol,Manual,1,Fair,Multan,Partial,Minor Accident,10,2060
+837,Toyota,Hilux,2020,121515,2200,Diesel,Manual,1,Good,Faisalabad,Partial,No Accident,12,14300
+838,Mercedes-Benz,A-Class,2013,166919,2500,Hybrid,,3,Good,Lahore,,Minor Accident,17,3180
+839,Toyota,Fortuner,2020,144455,4000,Diesel,Automatic,3,Good,Lahore,Full,Minor Accident,9,14410
+840,Toyota,Camry,2020,125879,1500,Petrol,CVT,1,Good,Sialkot,Partial,No Accident,15,13350
+841,Suzuki,Swift,2022,101845,1000,CNG,Automatic,2,Excellent,Gujranwala,Full,No Accident,8,8250
+842,Mazda,Mazda3,2023,45669,1800,Petrol,CVT,2,Excellent,Sialkot,Full,Minor Accident,16,21240
+843,Mitsubishi,ASX,2014,185581,1800,Petrol,Automatic,1,Good,Karachi,Full,No Accident,13,4560
+844,Hyundai,Sonata,2020,159302,1500,Petrol,CVT,2,Good,Gujranwala,Full,No Accident,12,11020
+845,Hyundai,Sonata,2014,162730,1600,Petrol,Automatic,1,Good,Quetta,Partial,No Accident,14,4500
+846,Mazda,Mazda3,2020,124659,1500,Petrol,CVT,1,Good,Karachi,Full,No Accident,13,12160
+847,Suzuki,Alto,2010,172907,660,CNG,Automatic,2,Good,Rawalpindi,Full,Minor Accident,5,2000
+848,Subaru,XV,2015,104382,1500,Diesel,Manual,2,Fair,Rawalpindi,Partial,No Accident,10,4660
+849,Kia,Cerato,2023,78462,2000,Petrol,Automatic,1,Excellent,Multan,Full,No Accident,13,18130
+850,Honda,HR-V,2017,59294,1600,Petrol,CVT,1,Good,Multan,Full,Minor Accident,14,7020
+851,Hyundai,Tucson,2010,289236,2200,Petrol,Automatic,1,Poor,Lahore,Full,No Accident,2,2000
+852,Toyota,RAV4,2018,112576,2500,Petrol,DCT,2,Good,Gujranwala,Full,No Accident,10,10100
+853,Toyota,Hilux,2018,209615,2200,Petrol,Automatic,2,Good,Multan,Partial,Minor Accident,14,6210
+854,Toyota,Prius,2021,46994,1500,Hybrid,Manual,2,Excellent,Gujranwala,Full,No Accident,14,15760
+855,Honda,City,2020,98120,1600,Diesel,CVT,1,,Karachi,Full,No Accident,12,15300
+856,Mercedes-Benz,E-Class,2018,142087,1600,Hybrid,Automatic,3,Good,Karachi,Partial,Minor Accident,13,13300
+857,Hyundai,Tucson,2011,160728,1800,Diesel,Automatic,1,Good,Rawalpindi,Full,Minor Accident,9,4040
+858,Hyundai,Sonata,2013,249562,1500,Diesel,Automatic,2,Poor,Karachi,Full,No Accident,11,2440
+859,Toyota,Land Cruiser,2014,157904,2500,Diesel,Automatic,1,Fair,Karachi,Full,No Accident,15,15960
+861,Honda,Accord,2017,69282,1500,Diesel,CVT,2,Good,Rawalpindi,Full,Minor Accident,10,10780
+862,BMW,5 Series,2020,72032,1600,Hybrid,DCT,2,Excellent,Peshawar,Full,No Accident,19,25690
+863,Honda,HR-V,2019,75954,2000,Petrol,Automatic,3,Excellent,Karachi,Full,No Accident,10,13190
+865,Toyota,Hilux,2017,145185,2200,Diesel,Manual,2,Fair,Multan,Partial,No Accident,10,6130
+866,Suzuki,Wagon R,2019,98540,1000,CNG,Manual,2,Excellent,Quetta,Full,Minor Accident,11,4270
+867,BMW,7 Series,2023,36529,2000,Hybrid,Automatic,2,Excellent,Multan,Full,Minor Accident,25,71340
+868,Subaru,Impreza,2019,160275,1800,Petrol,Automatic,3,,Lahore,Full,No Accident,16,8360
+869,Volkswagen,Golf,2008,233390,1300,Petrol,Automatic,4,Fair,Faisalabad,Partial,Minor Accident,10,2000
+870,Suzuki,Bolan,2017,103967,1300,Petrol,Manual,1,Fair,Gujranwala,Partial,No Accident,4,2010
+871,Volkswagen,Golf,2022,139805,1000,Petrol,Manual,1,Excellent,Karachi,Full,Minor Accident,16,15130
+873,Hyundai,Elantra,2013,194912,1800,Diesel,Manual,5,Poor,Gujranwala,Partial,No Accident,10,2000
+874,Toyota,Camry,2016,157534,1300,Petrol,Automatic,1,,Multan,Full,No Accident,12,9720
+875,Suzuki,Wagon R,2020,63564,660,Petrol,Manual,1,Fair,Faisalabad,Full,No Accident,13,6090
+876,Hyundai,Accent,2012,199580,1500,Petrol,Automatic,3,Good,Islamabad,Full,Minor Accident,11,2340
+877,Honda,City,2021,80745,2000,Diesel,CVT,1,Excellent,Faisalabad,Full,No Accident,14,15030
+878,Mazda,Mazda2,2018,214270,1200,Petrol,Automatic,1,Good,Lahore,Full,No Accident,18,6030
+879,Toyota,RAV4,2011,330275,2000,Petrol,Automatic,2,Fair,Lahore,Full,Minor Accident,7,2000
+880,Toyota,Land Cruiser,2017,245193,3500,Petrol,Manual,1,Good,Peshawar,Partial,No Accident,9,17630
+881,Suzuki,Vitara,2011,213479,1600,Diesel,Manual,2,Fair,Lahore,,No Accident,4,2000
+882,Honda,Accord,2018,62760,1600,Petrol,CVT,3,Good,Multan,Partial,No Accident,14,9010
+883,BMW,3 Series,2018,199033,2000,Petrol,CVT,1,Excellent,Gujranwala,Partial,No Accident,15,10750
+886,Suzuki,Bolan,2015,134360,1300,CNG,Manual,3,Good,Karachi,Partial,Minor Accident,16,2000
+887,Honda,CR-V,2021,25775,1800,Petrol,CVT,1,Excellent,Quetta,Full,No Accident,14,21080
+888,Hyundai,Elantra,2019,71231,1600,Petrol,Manual,2,Good,Quetta,Full,No Accident,14,10000
+889,Suzuki,Bolan,2022,72558,800,Petrol,Automatic,1,Excellent,Sialkot,Full,No Accident,8,7200
+890,Honda,BR-V,2011,350000,2000,Petrol,Manual,4,Fair,Rawalpindi,Partial,No Accident,13,2000
+891,Hyundai,i10,2018,54079,1000,Petrol,Automatic,1,Good,Multan,Full,No Accident,9,5160
+892,Suzuki,Bolan,2012,136645,1000,Petrol,Manual,1,Good,Peshawar,Full,No Accident,7,2000
+893,Honda,Accord,2016,194833,1300,Petrol,CVT,2,Fair,Lahore,Full,Minor Accident,9,5560
+894,Toyota,Corolla,2017,70517,1600,CNG,CVT,1,Fair,Rawalpindi,Full,No Accident,10,7270
+895,Suzuki,Wagon R,2019,52085,660,Diesel,CVT,2,Excellent,Sialkot,Full,No Accident,11,6510
+897,Toyota,Hilux,2018,155388,3000,Diesel,Automatic,4,Excellent,Rawalpindi,Partial,No Accident,12,9700
+898,Suzuki,Alto,2019,167899,1000,CNG,Manual,2,Fair,Islamabad,Partial,Minor Accident,10,2190
+899,Kia,Sorento,2016,38920,3000,Petrol,Manual,1,Good,Sialkot,Full,No Accident,6,11810
+901,Ford,Fiesta,2019,116984,1500,Diesel,Manual,3,Good,Islamabad,Partial,No Accident,13,6770
+902,Honda,CR-V,2019,113039,2500,Petrol,Manual,3,Good,Islamabad,Partial,No Accident,8,9950
+903,Kia,Picanto,2020,53782,800,Petrol,CVT,1,Excellent,Islamabad,Full,No Accident,11,9890
+904,BMW,X5,2015,271750,2000,Petrol,Automatic,1,Fair,Lahore,Partial,No Accident,19,6810
+905,Subaru,XV,2022,63492,2000,Diesel,CVT,2,Excellent,Islamabad,,No Accident,10,21340
+906,Subaru,Forester,2019,127327,2200,Petrol,CVT,3,Good,Rawalpindi,Partial,No Accident,10,9740
+907,Nissan,Patrol,2017,133576,3500,Petrol,Automatic,1,Excellent,Quetta,Full,No Accident,15,19360
+908,Honda,City,2023,48828,1800,Petrol,Automatic,1,Good,Multan,Partial,No Accident,16,13270
+909,Hyundai,Accent,2020,110349,1300,Diesel,Automatic,1,Excellent,Karachi,Partial,No Accident,11,12980
+910,Mercedes-Benz,GLC,2016,149173,3000,Petrol,Automatic,2,Excellent,Sialkot,Full,Minor Accident,15,10010
+911,Mitsubishi,Mirage,2023,68883,660,Diesel,Manual,1,,Gujranwala,Full,Minor Accident,12,11700
+912,BMW,X5,2018,107926,2500,Petrol,CVT,3,Good,Karachi,Partial,No Accident,19,17830
+913,Suzuki,Bolan,2014,100095,800,Petrol,Automatic,1,Fair,Sialkot,Partial,Minor Accident,8,2000
+914,Subaru,Outback,2016,119002,2200,Petrol,CVT,2,Good,Lahore,Partial,No Accident,11,8010
+915,Honda,City,2017,131159,1300,Petrol,CVT,2,Excellent,Sialkot,Full,No Accident,9,6240
+916,Kia,Sorento,2021,70927,3000,Hybrid,Manual,1,Fair,Quetta,Partial,No Accident,17,16770
+917,Hyundai,Sonata,2015,184499,2000,Petrol,Manual,2,Good,Gujranwala,Full,No Accident,7,5170
+918,Ford,Fiesta,2017,139602,1500,Petrol,Manual,2,Good,Peshawar,Full,No Accident,17,5140
+919,Hyundai,Sonata,2012,61422,1800,Diesel,Manual,5,Excellent,Lahore,Full,Major Accident,12,2680
+920,Honda,City,2020,124353,2000,Petrol,Automatic,1,Excellent,Sialkot,Full,No Accident,12,12630
+921,Hyundai,Accent,2014,147102,1200,Petrol,Automatic,4,Poor,Quetta,Full,No Accident,17,2000
+922,Hyundai,Accent,2018,57597,1200,Petrol,Automatic,3,Good,Islamabad,,No Accident,13,6860
+923,Suzuki,Cultus,2016,92414,1500,Diesel,Automatic,4,Fair,Sialkot,,No Accident,11,2360
+924,Kia,Cerato,2020,72954,1300,Petrol,Automatic,1,Excellent,Gujranwala,Full,No Accident,6,10570
+925,Mitsubishi,Pajero,2018,185852,3000,Petrol,Automatic,1,Good,Sialkot,Partial,No Accident,15,11190
+926,Suzuki,Swift,2022,86104,1500,Diesel,Manual,3,Excellent,Lahore,Partial,No Accident,11,8910
+927,Suzuki,Bolan,2015,201017,1300,Petrol,Manual,1,Poor,Rawalpindi,,No Accident,11,2000
+928,Volkswagen,Tiguan,2015,258195,2200,Petrol,Manual,4,Good,Karachi,Partial,No Accident,16,3800
+930,Mitsubishi,Lancer,2018,209415,1600,Petrol,Manual,4,Good,Sialkot,Full,Minor Accident,10,3980
+931,Honda,HR-V,2020,137326,1800,Petrol,CVT,3,Excellent,Faisalabad,Full,No Accident,9,12290
+932,Subaru,Forester,2016,105943,1800,Petrol,Automatic,5,Good,Islamabad,Full,Minor Accident,12,7080
+933,Volvo,XC60,2016,267593,2500,CNG,Automatic,2,Good,Faisalabad,Partial,Minor Accident,12,4090
+935,Honda,BR-V,2016,132187,1500,Petrol,Automatic,1,Fair,Sialkot,Full,No Accident,11,6670
+936,Toyota,Prius,2022,64485,1000,Hybrid,Manual,1,Good,Lahore,Partial,No Accident,15,20840
+937,Mercedes-Benz,A-Class,2022,76264,3000,,Automatic,2,Excellent,Faisalabad,Full,No Accident,17,24570
+938,Toyota,Corolla,2019,82448,2000,Petrol,Automatic,2,Good,Lahore,Full,No Accident,11,10990
+939,Ford,Focus,2011,274609,1000,Diesel,Manual,3,Fair,Islamabad,Partial,No Accident,11,2000
+940,Toyota,Hilux,2018,80630,2400,Petrol,Manual,4,Excellent,Karachi,Full,No Accident,15,10700
+941,Honda,Accord,2019,139292,2000,,Automatic,2,Excellent,Multan,Full,No Accident,7,11310
+942,Honda,HR-V,2020,55558,2000,Hybrid,CVT,2,Excellent,Lahore,Full,,17,17620
+944,Mazda,CX-5,2017,146703,2400,Petrol,DCT,1,Good,Lahore,Partial,No Accident,15,8640
+945,Volkswagen,Tiguan,2020,94759,2200,CNG,CVT,2,Excellent,Sialkot,Full,Minor Accident,21,17040
+946,Nissan,Juke,2020,116685,1600,CNG,Automatic,2,Excellent,Multan,Full,No Accident,10,10570
+947,Suzuki,Bolan,2014,161803,1000,CNG,CVT,1,Good,Karachi,Full,No Accident,5,2060
+948,Kia,Rio,2015,124882,1500,CNG,Automatic,4,Good,Faisalabad,Partial,No Accident,11,3080
+949,Suzuki,Vitara,2009,213139,1800,Petrol,CVT,1,Fair,Sialkot,,Minor Accident,0,2000
+950,Hyundai,i10,2019,114583,660,Petrol,Manual,1,Excellent,Multan,Full,No Accident,11,6230
+951,Mazda,CX-3,2015,191020,1600,Petrol,Manual,3,Fair,,Partial,Minor Accident,11,2540
+952,Nissan,Note,2012,261877,1500,Diesel,Automatic,5,Poor,Lahore,,Minor Accident,6,2000
+953,Toyota,Land Cruiser,2015,171461,3000,Petrol,Manual,1,Fair,Quetta,Partial,Major Accident,12,7090
+954,Volkswagen,Golf,2018,67823,1500,Diesel,Automatic,1,Good,Faisalabad,Full,Minor Accident,14,8770
+955,Ford,Focus,2019,150299,1000,Diesel,Automatic,3,Excellent,Rawalpindi,Partial,No Accident,11,7690
+957,Toyota,Corolla,2017,201754,1500,CNG,CVT,2,Excellent,Multan,,No Accident,15,5080
+958,Ford,Explorer,2022,27022,3000,Hybrid,Manual,3,Good,Peshawar,Full,No Accident,13,26590
+959,Hyundai,i10,2019,95291,1000,Petrol,Manual,2,Good,Lahore,Partial,Minor Accident,10,5100
+960,Nissan,Altima,2018,77588,1300,Diesel,CVT,3,Good,Peshawar,Partial,No Accident,14,8260
+961,Hyundai,Tucson,2013,148093,2400,Petrol,Automatic,3,Fair,Multan,Partial,Minor Accident,7,2710
+963,Honda,BR-V,2018,245281,1800,Petrol,Automatic,1,Good,Peshawar,Partial,No Accident,15,5580
+964,Toyota,Yaris,2013,156565,1500,Petrol,Automatic,4,Good,Sialkot,,,7,2200
+965,Volkswagen,Golf,2022,83372,1500,Petrol,Manual,3,Excellent,Peshawar,Full,No Accident,22,13970
+967,Toyota,Prius,2016,201839,1300,,Manual,2,Good,Faisalabad,,No Accident,10,4840
+968,Honda,Civic,2015,125384,1600,Petrol,Manual,2,Excellent,Lahore,Partial,No Accident,11,6810
+969,Kia,Picanto,2019,78784,1000,Petrol,Manual,1,Excellent,Peshawar,Full,No Accident,11,7100
+970,Toyota,RAV4,2005,237285,2200,Hybrid,Automatic,3,Fair,Sialkot,,No Accident,4,2000
+972,Chevrolet,Malibu,2010,248000,1300,,Manual,2,Poor,Multan,Full,No Accident,10,2000
+973,Suzuki,Wagon R,2019,99585,800,Petrol,CVT,2,,Rawalpindi,Full,No Accident,12,5560
+974,Hyundai,i10,2017,172910,1000,Diesel,Manual,4,Good,Karachi,Partial,No Accident,12,3040
+975,BMW,1 Series,2012,42924,3000,Diesel,Automatic,4,Good,Islamabad,Partial,No Accident,17,3320
+976,Honda,City,2014,237835,2000,CNG,Manual,3,Fair,Gujranwala,,Minor Accident,7,2000
+977,Honda,HR-V,2010,259609,2000,Petrol,Manual,3,Poor,Sialkot,Full,Major Accident,2,2000
+979,Mazda,Mazda6,2012,229205,1600,Petrol,Manual,2,Fair,Rawalpindi,,No Accident,16,2400
+980,Toyota,Land Cruiser,2021,86420,3000,Petrol,Manual,2,Good,Sialkot,Full,No Accident,11,39200
+981,Chevrolet,Cruze,2021,90403,1300,Petrol,Manual,1,Excellent,Sialkot,Full,No Accident,15,13170
+982,Lexus,RX,2021,89837,4000,Diesel,DCT,3,Good,Quetta,Partial,No Accident,20,19730
+983,Nissan,Patrol,2021,67097,4000,Petrol,Automatic,2,Excellent,Peshawar,Full,No Accident,6,37250
+984,Kia,Stonic,2020,138835,1600,Petrol,CVT,2,Good,Lahore,Partial,No Accident,20,8230
+985,Ford,Mustang,2021,121603,5000,,Manual,2,Good,Lahore,Full,No Accident,12,22460
+986,Honda,BR-V,2022,48582,2000,Hybrid,Automatic,1,Excellent,Lahore,Partial,No Accident,13,17630
+987,Mitsubishi,ASX,2012,244012,1500,Diesel,Manual,3,Good,Lahore,Partial,No Accident,14,2270
+988,Mercedes-Benz,S-Class,2016,86345,1600,Petrol,CVT,1,Poor,Lahore,Partial,Minor Accident,19,10270
+989,Honda,Accord,2011,97292,1800,Petrol,Manual,3,Good,Rawalpindi,Partial,No Accident,4,3090
+990,Toyota,Fortuner,2014,185550,4000,,Automatic,2,Fair,Karachi,Partial,No Accident,9,6150
+991,Toyota,Yaris,2015,131442,1200,Hybrid,Manual,1,Good,Islamabad,Partial,Minor Accident,14,4320
+992,Nissan,Note,2021,61795,1300,Petrol,Automatic,2,Excellent,Rawalpindi,Partial,No Accident,13,12890
+993,Suzuki,Wagon R,2019,117409,800,Petrol,Manual,3,Fair,Lahore,Partial,No Accident,12,3480
+995,Toyota,Hilux,2013,297388,3000,Diesel,Manual,1,,Faisalabad,Full,No Accident,8,2210
+996,Honda,City,2007,174136,1300,Petrol,Automatic,3,Good,Gujranwala,Full,Major Accident,3,2000
+997,Toyota,Land Cruiser,2021,121409,4000,Diesel,Automatic,1,Excellent,Peshawar,Full,Minor Accident,17,50020
+998,Toyota,Fortuner,2010,261778,2500,Diesel,Manual,3,Poor,Multan,Partial,No Accident,5,2000
+999,Honda,City,2016,139280,1800,Petrol,Manual,2,Excellent,Sialkot,Full,No Accident,9,5110
+1001,Toyota,Hilux,2023,44958,2500,Diesel,Manual,2,Good,Karachi,Full,No Accident,18,28740
+1002,Nissan,Altima,2021,98994,1500,Petrol,DCT,3,Good,Islamabad,,No Accident,10,12280
+1003,Honda,BR-V,2015,229232,1800,Diesel,Manual,1,Poor,Karachi,Partial,No Accident,13,2610
+1004,Kia,Sportage,2017,179900,1800,Petrol,DCT,3,Fair,Islamabad,Full,No Accident,9,6040
+1005,Ford,Fiesta,2022,27046,1300,Petrol,Automatic,2,Good,Lahore,Full,No Accident,12,10370
+1006,Honda,Civic,2019,31198,1300,Petrol,Automatic,4,Excellent,Gujranwala,Partial,Minor Accident,15,10060
+1007,Mazda,CX-5,2016,126167,2000,Petrol,CVT,4,Good,Sialkot,Partial,No Accident,8,5210
+1008,BMW,5 Series,2015,185869,2000,Petrol,Automatic,2,Fair,Faisalabad,Partial,No Accident,16,6630
+1009,Toyota,RAV4,2008,240457,2500,Petrol,Automatic,4,Fair,Islamabad,Full,No Accident,8,2000
+1010,Toyota,Yaris,2018,151613,1000,Petrol,Automatic,2,Good,Karachi,,No Accident,15,5190
+1011,Nissan,Sunny,2014,130681,1800,CNG,Manual,5,Good,Sialkot,,No Accident,13,2210
+1012,Toyota,Fortuner,2024,42879,3500,Petrol,Automatic,1,Excellent,Karachi,Full,No Accident,17,52050
+1013,Mazda,Mazda3,2014,251050,1600,CNG,Automatic,1,Good,Multan,,No Accident,12,2520
+1014,Suzuki,Wagon R,2021,51915,800,Petrol,Automatic,1,Good,Peshawar,Full,No Accident,8,7750
+1015,Toyota,Land Cruiser,2009,152096,4000,Diesel,Automatic,3,Excellent,Lahore,,,7,6710
+1016,Hyundai,Tucson,2024,20106,2000,Petrol,CVT,2,Good,Multan,Full,No Accident,15,28700
+1017,Mazda,Mazda2,2005,350000,1300,Petrol,Manual,2,Poor,Islamabad,Full,Minor Accident,7,2000
+1019,Suzuki,Swift,2016,83014,1500,Petrol,Automatic,3,Good,Faisalabad,Full,Minor Accident,9,3500
+1020,BMW,3 Series,2013,162277,3000,Petrol,Automatic,4,Good,Gujranwala,,No Accident,12,3300
+1021,Volkswagen,Tiguan,2015,256727,2500,Diesel,Automatic,3,Good,Sialkot,Partial,No Accident,11,3830
+1025,Honda,CR-V,2018,57624,2400,Petrol,Automatic,4,Good,Peshawar,,No Accident,9,7720
+1026,Nissan,Sunny,2024,34875,2000,Petrol,Manual,3,Fair,Karachi,Partial,No Accident,14,11660
+1027,Volkswagen,Jetta,2009,268719,1800,Petrol,Manual,1,Fair,Faisalabad,Partial,No Accident,7,2000
+1028,Toyota,Yaris,2014,196875,1300,Petrol,Manual,1,Poor,Rawalpindi,Full,Minor Accident,9,2000
+1029,Nissan,Altima,2017,350000,1300,Petrol,Automatic,1,Fair,Lahore,Partial,No Accident,7,3470
+1031,Volvo,V40,2021,70692,3000,Petrol,DCT,1,Excellent,Gujranwala,Full,No Accident,19,22240
+1032,Ford,Focus,2015,198631,1500,Petrol,Manual,4,Excellent,Gujranwala,Full,Major Accident,8,2740
+1033,Toyota,Fortuner,2011,305169,3500,Petrol,Manual,1,Fair,Islamabad,Full,Major Accident,4,2000
+1034,Honda,BR-V,2021,104262,1600,Petrol,CVT,2,Excellent,Sialkot,Full,Minor Accident,14,12530
+1035,Toyota,Prius,2008,320133,1200,,Manual,3,Poor,Sialkot,Full,Minor Accident,8,2000
+1036,Toyota,Hilux,2014,277659,2400,Petrol,Automatic,1,Poor,Islamabad,Partial,Minor Accident,11,2290
+1037,Suzuki,Wagon R,2009,156202,660,CNG,CVT,1,Good,Islamabad,Full,Major Accident,5,2000
+1038,Suzuki,Cultus,2023,68049,1300,CNG,CVT,1,Excellent,Multan,Full,No Accident,15,11620
+1039,Ford,Explorer,2012,275852,3000,Petrol,Manual,4,Poor,Lahore,Partial,Minor Accident,10,2000
+1040,Ford,Ranger,2013,210512,2200,Petrol,Manual,3,Good,Sialkot,Partial,Minor Accident,10,3000
+1042,Hyundai,Elantra,2017,108207,1800,Petrol,CVT,3,Good,Lahore,Partial,No Accident,14,6910
+1043,Hyundai,Accent,2023,28073,1000,Petrol,Automatic,1,,Lahore,Full,No Accident,12,24260
+1044,Mazda,Mazda6,2018,114346,1500,Petrol,CVT,2,Excellent,Peshawar,Partial,Minor Accident,10,8870
+1045,Volkswagen,Polo,2019,45412,1500,CNG,Automatic,2,Good,Karachi,Full,No Accident,20,9500
+1046,Suzuki,Swift,2017,84596,1200,Petrol,Automatic,3,Good,Sialkot,Partial,Minor Accident,7,4560
+1047,Lexus,RX,2016,215494,3500,Petrol,Automatic,1,Good,Islamabad,Partial,No Accident,20,10200
+1049,Volkswagen,Jetta,2015,186977,1600,Petrol,Automatic,1,Poor,Islamabad,Full,No Accident,11,3020
+1050,Lexus,LX,2017,264206,3500,Petrol,,4,Poor,Faisalabad,,Major Accident,17,3810
+1051,Honda,Civic,2024,26949,1500,CNG,CVT,1,Good,Sialkot,Full,No Accident,13,20210
+1052,Toyota,RAV4,2015,223200,2500,Diesel,Manual,1,Fair,Islamabad,Full,Major Accident,15,3140
+1053,Suzuki,Bolan,2012,350000,800,Petrol,Manual,3,Poor,Lahore,Full,Major Accident,1,2000
+1054,Suzuki,Alto,2019,85344,660,Diesel,Manual,4,Excellent,Rawalpindi,Full,Minor Accident,7,4150
+1055,Ford,Focus,2014,172025,1300,Petrol,Manual,1,Fair,Gujranwala,Partial,No Accident,9,2600
+1056,Toyota,Hilux,2020,102876,3000,Diesel,Manual,1,Excellent,Islamabad,Full,No Accident,11,19760
+1058,Hyundai,Sonata,2016,223184,2000,Petrol,DCT,1,Excellent,Rawalpindi,Partial,No Accident,7,6850
+1059,Hyundai,Elantra,2023,57079,1300,Petrol,CVT,1,Excellent,Rawalpindi,Partial,No Accident,11,18280
+1060,Hyundai,Sonata,2012,327192,1300,Diesel,Automatic,1,Poor,Karachi,,No Accident,6,2000
+1061,Suzuki,Bolan,2021,60092,1300,Petrol,Manual,1,Good,Peshawar,Full,Minor Accident,13,5190
+1062,Suzuki,Vitara,2020,54919,1600,Petrol,Manual,1,Good,Multan,Full,No Accident,10,9580
+1063,Audi,A4,2016,258653,2000,Diesel,DCT,2,Fair,Quetta,Full,No Accident,20,5690
+1064,Audi,A6,2024,25669,1600,Petrol,Automatic,2,Excellent,Multan,Full,No Accident,25,59840
+1065,Suzuki,Vitara,2022,86746,1800,Petrol,CVT,2,Excellent,Peshawar,Full,No Accident,17,12930
+1066,Toyota,Camry,2021,65430,1600,Petrol,CVT,4,Excellent,Gujranwala,Full,No Accident,13,16820
+1067,Suzuki,Bolan,2021,51043,800,Petrol,Manual,1,Excellent,Multan,Partial,No Accident,12,6330
+1068,Mitsubishi,Outlander,2014,242837,1800,Petrol,Automatic,1,Fair,Lahore,Full,Minor Accident,16,3770
+1070,Suzuki,Cultus,2016,193095,1200,,CVT,2,Good,Peshawar,Partial,No Accident,16,2920
+1071,Ford,Mustang,2017,183626,5000,Petrol,Manual,1,Excellent,Gujranwala,Partial,No Accident,8,12960
+1073,Ford,Escape,2017,76658,2000,Diesel,DCT,2,Fair,Lahore,Full,No Accident,13,8700
+1075,Mitsubishi,Pajero,2013,223080,3500,Petrol,Manual,2,Fair,Multan,Full,No Accident,14,5360
+1076,Mazda,Mazda2,2014,298293,1500,Petrol,Manual,3,Good,Faisalabad,Partial,No Accident,11,2060
+1077,Honda,HR-V,2011,167845,2000,Petrol,Automatic,4,Poor,Karachi,,Minor Accident,6,2000
+1078,Toyota,Land Cruiser,2008,256923,2500,Petrol,Manual,2,Fair,Karachi,,No Accident,2,3430
+1079,Subaru,Forester,2017,84469,2500,Petrol,CVT,3,Fair,Gujranwala,Full,No Accident,14,6350
+1080,Suzuki,Cultus,2020,76893,1000,Petrol,Manual,2,Excellent,Multan,Full,No Accident,12,7820
+1081,BMW,5 Series,2009,196971,2000,Diesel,Automatic,4,Excellent,Peshawar,Full,Minor Accident,14,3240
+1082,Subaru,Outback,2014,215416,2400,Petrol,Manual,4,Fair,Lahore,Partial,No Accident,11,2950
+1083,Toyota,Camry,2014,118335,2000,Petrol,Manual,3,Fair,Multan,,,8,2670
+1084,Ford,Fiesta,2019,101692,1200,Petrol,Manual,1,Excellent,Lahore,Full,No Accident,17,9870
+1087,Toyota,Prius,2019,179595,1300,Petrol,Manual,2,Fair,Gujranwala,Full,,12,6150
+1088,Suzuki,Alto,2015,173135,800,Petrol,Manual,3,Good,Sialkot,Partial,No Accident,5,2000
+1089,Mazda,Mazda2,2016,133356,1500,Petrol,Manual,2,Fair,Faisalabad,Full,No Accident,9,3800
+1090,Kia,Stonic,2012,194581,1500,Petrol,Manual,3,Good,Gujranwala,Partial,Minor Accident,11,2000
+1091,Subaru,Outback,2010,312141,2500,Petrol,Automatic,3,Poor,Gujranwala,,Minor Accident,9,2000
+1092,Kia,Cerato,2018,94250,1300,Petrol,CVT,2,Good,Multan,Partial,No Accident,11,7460
+1093,Hyundai,Accent,2022,75128,1500,Hybrid,Automatic,1,Excellent,Lahore,Partial,Minor Accident,16,13240
+1095,Volkswagen,Polo,2019,148247,1000,Petrol,Automatic,2,Good,Faisalabad,Partial,No Accident,10,5310
+1096,Ford,Mustang,2022,86065,3000,Hybrid,Automatic,3,Fair,Multan,,No Accident,14,13780
+1097,Nissan,Juke,2024,5730,1600,Petrol,Manual,1,Excellent,Islamabad,Full,No Accident,18,31030
+1098,Chevrolet,Spark,2017,132523,800,Petrol,Manual,1,Fair,Lahore,Full,No Accident,11,3480
+1099,Honda,Civic,2018,153455,1800,Petrol,CVT,3,,Gujranwala,,No Accident,10,4200
+1100,Chevrolet,Captiva,2016,94604,2200,CNG,Automatic,2,Good,Karachi,Partial,No Accident,15,6620
+1101,Kia,Picanto,2008,350000,660,Petrol,Automatic,4,Fair,Lahore,Partial,No Accident,3,2000
+1102,Toyota,Camry,2020,49375,1800,Petrol,CVT,2,Excellent,Lahore,Full,Minor Accident,17,17690
+1103,Ford,Fiesta,2015,188628,1200,Petrol,Manual,1,Excellent,Lahore,Full,No Accident,16,4170
+1104,Ford,Mustang,2023,44119,5000,Diesel,Manual,1,Excellent,Multan,Partial,No Accident,21,34180
+1105,Toyota,Prius,2018,53378,1500,Hybrid,Automatic,2,Excellent,Sialkot,Partial,Minor Accident,13,10020
+1106,Nissan,Altima,2012,350000,1300,Hybrid,Automatic,2,Poor,Peshawar,Full,No Accident,8,2000
+1107,Hyundai,Accent,2023,45228,1500,Petrol,Manual,3,Good,Gujranwala,Full,No Accident,11,11530
+1108,Kia,Rio,2010,235289,1200,Petrol,Manual,3,Good,Karachi,,Minor Accident,4,2000
+1109,Kia,Picanto,2011,350000,800,Petrol,Automatic,2,Fair,Karachi,Full,Major Accident,11,2000
+1110,Mitsubishi,Outlander,2020,42600,1800,Petrol,CVT,1,Excellent,Karachi,Partial,No Accident,19,21480
+1112,Ford,Explorer,2010,52843,4000,Petrol,Automatic,2,Excellent,Gujranwala,Partial,No Accident,12,4180
+1114,Toyota,Hilux,2021,62515,3000,Hybrid,Automatic,1,Good,Faisalabad,Full,No Accident,15,19880
+1115,Ford,Mustang,2021,164372,3000,Diesel,Automatic,1,Fair,Quetta,Full,No Accident,9,14430
+1116,Toyota,Fortuner,2018,143041,3000,Petrol,Automatic,2,Fair,Gujranwala,Full,No Accident,16,9700
+1117,Volvo,S60,2022,101336,2000,Hybrid,Automatic,4,Good,Sialkot,Partial,No Accident,24,20570
+1118,Suzuki,Bolan,2008,254721,1300,Hybrid,CVT,2,Fair,Sialkot,Partial,Minor Accident,0,2000
+1120,Suzuki,Cultus,2020,61197,1300,Petrol,Manual,2,Good,Islamabad,Partial,No Accident,11,6580
+1121,Kia,Sorento,2015,247388,3000,Petrol,Manual,1,Fair,Lahore,Full,Minor Accident,10,5170
+1122,Toyota,Land Cruiser,2019,96099,3000,Diesel,Automatic,3,Good,Faisalabad,,No Accident,12,29660
+1123,Suzuki,Bolan,2021,139840,1000,Petrol,Manual,2,,Faisalabad,Partial,No Accident,14,3790
+1124,Subaru,Forester,2021,99818,2400,Petrol,CVT,1,Excellent,Karachi,Full,No Accident,18,21050
+1125,Toyota,Land Cruiser,2011,350000,2500,Petrol,Automatic,2,Fair,Islamabad,,Minor Accident,3,3840
+1126,Toyota,Fortuner,2018,51260,2500,Petrol,Manual,2,Good,Karachi,Partial,Major Accident,16,9580
+1127,Honda,Accord,2008,279061,2000,Diesel,Manual,3,Fair,Faisalabad,,No Accident,7,2000
+1128,Toyota,Corolla,2022,80228,1800,Petrol,Automatic,2,Fair,Sialkot,Full,Minor Accident,12,9710
+1129,BMW,1 Series,2020,136978,1600,Petrol,Automatic,1,Good,Peshawar,Partial,No Accident,19,10960
+1130,Kia,Rio,2021,94165,1200,Petrol,Manual,3,Fair,Sialkot,Partial,Minor Accident,13,5370
+1131,Kia,Sorento,2015,69599,4000,Petrol,,1,Good,Faisalabad,Full,No Accident,16,7640
+1132,Kia,Sportage,2017,240423,1800,Petrol,CVT,3,Fair,Karachi,Partial,No Accident,16,3850
+1133,Honda,Civic,2020,98304,2000,Diesel,Manual,2,Good,Sialkot,Partial,No Accident,14,11030
+1134,Volkswagen,Jetta,2019,93212,1600,Petrol,CVT,2,Excellent,Sialkot,Partial,No Accident,18,9350
+1136,Toyota,Camry,2020,85637,1500,Petrol,CVT,3,Good,Karachi,Partial,No Accident,12,15040
+1137,Toyota,Land Cruiser,2012,309636,3000,Petrol,Automatic,1,Poor,Peshawar,Partial,No Accident,1,4030
+1138,Suzuki,Wagon R,2018,47691,1000,CNG,Manual,4,Good,Multan,Partial,Minor Accident,10,3450
+1139,Audi,A8,2013,183198,3000,Petrol,CVT,2,Fair,Rawalpindi,Partial,Minor Accident,8,6800
+1141,Hyundai,Santa Fe,2014,135624,2500,CNG,Manual,2,Fair,Multan,Full,Minor Accident,13,3310
+1142,Mitsubishi,Pajero,2013,234050,3500,Petrol,Manual,4,Fair,Multan,Partial,Major Accident,11,2230
+1143,Mercedes-Benz,C-Class,2021,94551,1600,Petrol,Automatic,3,Excellent,Faisalabad,,Major Accident,21,14570
+1144,Suzuki,Vitara,2015,126276,1500,Petrol,Manual,2,Excellent,Karachi,,Minor Accident,8,4030
+1145,Nissan,Sunny,2010,225205,1300,Petrol,Manual,3,Fair,Rawalpindi,Partial,No Accident,6,2000
+1146,Kia,Rio,2018,150897,1000,Petrol,Automatic,2,Excellent,Quetta,,No Accident,15,4570
+1147,Toyota,Prius,2020,52755,1500,Hybrid,Manual,4,Excellent,Faisalabad,Full,No Accident,8,12740
+1148,Toyota,Hilux,2017,162084,2500,Diesel,,1,Excellent,Multan,Partial,No Accident,12,9760
+1149,Suzuki,Wagon R,2009,296360,660,Petrol,CVT,5,Fair,Gujranwala,Partial,Major Accident,10,2000
+1150,Suzuki,Bolan,2011,323784,800,Petrol,Manual,3,Fair,Gujranwala,Partial,Minor Accident,2,2000
+1151,Chevrolet,Captiva,2013,135499,1800,Petrol,Manual,2,Fair,Lahore,Full,No Accident,8,3240
+1152,Hyundai,Sonata,2019,118271,2000,Petrol,CVT,4,Excellent,Faisalabad,,No Accident,11,8340
+1153,Subaru,Forester,2018,157408,2200,Petrol,CVT,1,Good,Faisalabad,,No Accident,15,7930
+1154,Ford,Ranger,2017,172729,2500,Petrol,Manual,1,Good,Quetta,Full,Minor Accident,13,7750
+1155,Nissan,Sunny,2019,139560,2000,Petrol,CVT,3,Good,Peshawar,Full,Major Accident,18,3970
+1156,Hyundai,Tucson,2016,129126,2000,CNG,CVT,3,Fair,Lahore,Partial,No Accident,11,5070
+1157,Hyundai,Accent,2019,142947,1200,Petrol,Manual,4,Good,Gujranwala,Full,Minor Accident,7,5480
+1158,Toyota,Prius,2019,126948,1300,Hybrid,Manual,2,Good,Sialkot,Full,No Accident,17,9950
+1159,Mazda,Mazda2,2014,188111,1200,Petrol,Automatic,1,Good,Lahore,Full,No Accident,9,3610
+1160,Toyota,Yaris,2021,76195,1500,Petrol,Automatic,1,Good,Multan,Partial,No Accident,7,10420
+1161,Suzuki,Vitara,2024,31547,1800,Diesel,CVT,2,Good,Multan,Full,No Accident,14,15780
+1162,Honda,HR-V,2019,150239,1500,Diesel,CVT,2,Good,Peshawar,Full,No Accident,12,9780
+1163,Nissan,Juke,2021,95006,1800,Petrol,Automatic,3,Good,Islamabad,,No Accident,9,11630
+1164,Hyundai,i10,2017,181635,1000,Petrol,Automatic,3,Good,Sialkot,Partial,No Accident,12,3300
+1165,BMW,X5,2018,186049,3000,Diesel,Automatic,2,Good,Karachi,,No Accident,25,11560
+1166,Honda,HR-V,2015,148103,1500,Diesel,Automatic,4,Excellent,Rawalpindi,Full,No Accident,5,5470
+1167,Mercedes-Benz,E-Class,2022,52854,3500,CNG,Automatic,3,Excellent,Multan,Partial,Minor Accident,21,26570
+1168,Ford,Explorer,2014,125713,4000,Petrol,Manual,1,Fair,Faisalabad,Partial,No Accident,11,6400
+1169,BMW,X3,2019,110846,2000,Petrol,Automatic,1,Good,Gujranwala,Full,No Accident,19,19860
+1170,Suzuki,Alto,2020,178444,660,CNG,Automatic,1,Fair,Lahore,Full,Minor Accident,12,3430
+1171,Kia,Sportage,2017,151998,2500,Petrol,DCT,2,Excellent,Gujranwala,Partial,No Accident,11,7200
+1172,BMW,5 Series,2021,123810,2500,Petrol,CVT,3,Excellent,Karachi,Full,Minor Accident,25,31740
+1173,Toyota,Corolla,2013,200311,1500,Petrol,Automatic,4,Good,Gujranwala,Full,No Accident,3,2700
+1174,Volkswagen,Golf,2022,94762,1000,Diesel,Manual,1,Excellent,Sialkot,Full,No Accident,17,20730
+1175,Subaru,XV,2021,94056,1500,Petrol,CVT,2,Good,Quetta,Full,Minor Accident,18,11070
+1177,Suzuki,Alto,2024,17472,660,Diesel,CVT,3,Good,Rawalpindi,Full,No Accident,15,10230
+1178,Hyundai,Elantra,2022,83361,1500,Petrol,Automatic,3,Excellent,Lahore,,Minor Accident,20,13860
+1179,Audi,A6,2019,118573,2000,Petrol,DCT,3,Excellent,Rawalpindi,Full,No Accident,18,23810
+1180,Mazda,CX-3,2016,148622,1600,Petrol,Automatic,1,Fair,Gujranwala,Full,Major Accident,14,3680
+1181,Honda,City,2013,192208,1500,Petrol,Automatic,2,Good,Faisalabad,Partial,No Accident,9,2730
+1182,Lexus,ES,2018,98853,1600,Petrol,Automatic,5,Excellent,Multan,,Major Accident,22,6680
+1183,Mazda,Mazda3,2014,125615,1500,Petrol,Manual,1,Fair,Islamabad,Full,No Accident,14,4550
+1184,Honda,BR-V,2020,144759,1600,Petrol,DCT,2,Good,Peshawar,Partial,Minor Accident,14,8340
+1185,Honda,Accord,2008,209752,1300,Petrol,Manual,3,Poor,Lahore,Partial,Minor Accident,7,2000
+1186,Mitsubishi,Mirage,2022,75156,800,Petrol,Manual,1,Excellent,Gujranwala,Full,No Accident,17,11530
+1187,Toyota,Yaris,2015,146481,1000,Petrol,Automatic,1,,Sialkot,Full,No Accident,10,3700
+1189,Ford,Explorer,2019,80741,3000,Diesel,Manual,2,Good,Peshawar,Full,Minor Accident,16,11900
+1190,Suzuki,Wagon R,2012,142157,660,Petrol,Manual,3,Fair,Multan,Partial,No Accident,10,2000
+1191,Honda,Accord,2016,164513,1500,Petrol,Automatic,1,Good,Peshawar,Full,No Accident,6,7100
+1192,Honda,BR-V,2022,57360,1600,Diesel,CVT,3,Excellent,Sialkot,Full,Minor Accident,13,12380
+1193,Suzuki,Wagon R,2015,272414,800,Petrol,Automatic,3,Good,Rawalpindi,Full,No Accident,10,2000
+1194,Kia,Picanto,2013,298309,660,Petrol,Manual,4,Poor,Rawalpindi,Partial,Minor Accident,10,2000
+1195,Kia,Stonic,2014,199035,1500,CNG,Manual,2,Fair,Gujranwala,Partial,No Accident,6,2140
+1196,Suzuki,Wagon R,2018,117326,660,CNG,Manual,2,Good,Rawalpindi,Full,No Accident,11,4330
+1197,Suzuki,Vitara,2011,207492,2000,Petrol,,2,Fair,Karachi,Full,Minor Accident,9,2060
+1198,Audi,A3,2016,139002,3000,Diesel,Automatic,1,Good,Multan,Full,Minor Accident,15,6650
+1200,Suzuki,Wagon R,2020,238261,1000,CNG,Manual,1,Good,Peshawar,Partial,No Accident,12,3300
