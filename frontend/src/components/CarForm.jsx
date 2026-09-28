@@ -7,7 +7,6 @@ import {
   CONDITIONS,
   SERVICE_HISTORY,
   ACCIDENT_HISTORY,
-  CITIES,
   YEARS,
 } from '../data/carData'
 
@@ -21,13 +20,12 @@ const initialState = {
   transmission: '',
   owner_count: '',
   condition: '',
-  city: '',
   service_history: '',
   accident_history: '',
   features_count: '',
 }
 
-// All 13 vehicle fields are required — this list is the single source
+// All 12 vehicle fields are required — this list is the single source
 // of truth for "is the form complete" and for the field-level checks.
 // Unchanged from before: same keys, same /predict payload shape.
 const REQUIRED_FIELDS = Object.keys(initialState)
@@ -38,7 +36,7 @@ function CarForm({ onSubmit, isLoading }) {
 
   const availableModels = form.brand ? BRAND_MODELS[form.brand] : []
 
-  // True only once every one of the 13 fields has a real, user-entered
+  // True only once every one of the 12 fields has a real, user-entered
   // value — never filled in automatically or defaulted.
   const isComplete = REQUIRED_FIELDS.every(
     (key) => form[key] !== '' && form[key] !== null && form[key] !== undefined,
@@ -99,7 +97,6 @@ function CarForm({ onSubmit, isLoading }) {
       transmission: form.transmission,
       owner_count: Number(form.owner_count),
       condition: form.condition,
-      city: form.city,
       service_history: form.service_history,
       accident_history: form.accident_history,
       features_count: Number(form.features_count),
@@ -209,15 +206,6 @@ function CarForm({ onSubmit, isLoading }) {
           <select value={form.condition} onChange={(e) => updateField('condition', e.target.value)}>
             <option value="">Select condition</option>
             {CONDITIONS.map((c) => (
-              <option key={c} value={c}>{c}</option>
-            ))}
-          </select>
-        </Field>
-
-        <Field label="City" error={errors.city}>
-          <select value={form.city} onChange={(e) => updateField('city', e.target.value)}>
-            <option value="">Select city</option>
-            {CITIES.map((c) => (
               <option key={c} value={c}>{c}</option>
             ))}
           </select>

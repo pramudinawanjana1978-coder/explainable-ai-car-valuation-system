@@ -30,17 +30,6 @@ export const SERVICE_HISTORY = ['Yes', 'No']
 
 export const ACCIDENT_HISTORY = ['Yes', 'No']
 
-export const CITIES = [
-  'Colombo',
-  'Kandy',
-  'Galle',
-  'Jaffna',
-  'Negombo',
-  'Kurunegala',
-  'Anuradhapura',
-  'Ratnapura',
-]
-
 const CURRENT_YEAR = new Date().getFullYear()
 export const YEARS = Array.from(
   { length: CURRENT_YEAR - 1990 + 1 },

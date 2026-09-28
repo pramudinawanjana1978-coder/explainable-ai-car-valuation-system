@@ -36,7 +36,6 @@ categorical_features = [
     "fuel_type",
     "transmission",
     "condition",
-    "city",
     "service_history",
     "accident_history"
 ]
@@ -52,7 +51,6 @@ nice_names = {
     "fuel_type": "Fuel Type",
     "transmission": "Transmission",
     "condition": "Vehicle Condition",
-    "city": "City",
     "service_history": "Service History",
     "accident_history": "Accident History"
 }
@@ -160,7 +158,6 @@ def predict(current_user_id):
             "transmission": data["transmission"],
             "owner_count": float(data["owner_count"]),
             "condition": data["condition"],
-            "city": data["city"],
             "service_history": data["service_history"],
             "accident_history": data["accident_history"],
             "features_count": float(data["features_count"])

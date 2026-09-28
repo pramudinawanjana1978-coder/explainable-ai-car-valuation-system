@@ -15,7 +15,6 @@ const VEHICLE_FIELD_LABELS = [
   ['transmission', 'Transmission'],
   ['owner_count', 'Previous Owners'],
   ['condition', 'Vehicle Condition'],
-  ['city', 'City'],
   ['service_history', 'Service History'],
   ['accident_history', 'Accident History'],
   ['features_count', 'Features Count'],
@@ -41,7 +40,7 @@ function formatMileage(value) {
  * @param {Object} params
  * @param {Object} params.vehicleDetails - the exact payload submitted to /predict
  *   (brand, model, year, mileage_km, engine_size_cc, fuel_type, transmission,
- *   owner_count, condition, city, service_history, accident_history, features_count)
+ *   owner_count, condition, service_history, accident_history, features_count)
  * @param {number} params.predictedPriceUsd - result.predicted_price from /predict
  * @param {Array}  params.explanations - result.explanations from /predict (SHAP-derived)
  */
