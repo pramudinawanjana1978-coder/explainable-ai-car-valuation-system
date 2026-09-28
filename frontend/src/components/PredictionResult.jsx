@@ -1,25 +1,11 @@
-import { useEffect, useState } from 'react'
-import { formatUsd, formatLkr, fetchUsdToLkrRate, convertUsdToLkr } from '../utils/currency'
+import { formatUsd } from '../utils/currency'
 import { generatePredictionReport } from '../utils/generatePredictionReport'
+import VehicleSummary from './VehicleSummary'
 
 function PredictionResult({ result, vehicleDetails }) {
-  const [rateInfo, setRateInfo] = useState(null) // { rate, isLive } once loaded
-
-  useEffect(() => {
-    let cancelled = false
-    setRateInfo(null)
-    fetchUsdToLkrRate().then((info) => {
-      if (!cancelled) setRateInfo(info)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [result])
-
   if (!result) return null
 
   const { predicted_price, explanations = [] } = result
-  const lkrValue = rateInfo ? convertUsdToLkr(predicted_price, rateInfo.rate) : null
 
   function handleDownloadReport() {
     // Uses only the data already on screen — the same result and form
@@ -28,48 +14,32 @@ function PredictionResult({ result, vehicleDetails }) {
       vehicleDetails,
       predictedPriceUsd: predicted_price,
       explanations,
-      lkrValue,
-      isLiveRate: rateInfo?.isLive ?? false,
     })
   }
 
   return (
     <div className="result-panel">
-      <span className="result-eyebrow">Estimated car price</span>
+      <VehicleSummary vehicleDetails={vehicleDetails} />
 
-      <div className="result-price-group">
+      <span className="result-eyebrow">Predicted Car Price (USD)</span>
+
+      <div className="price-spotlight">
         <div className="price-block price-usd">
-          <span className="currency-tag">USD</span>
           <span className="price-value">{formatUsd(predicted_price)}</span>
-        </div>
-
-        <div className="price-block price-lkr">
-          <span className="currency-tag">Sri Lankan Rupees (LKR)</span>
-          {rateInfo ? (
-            <>
-              <span className="price-value-lkr">≈ {formatLkr(lkrValue)}</span>
-              <span className="rate-note">
-                {rateInfo.isLive
-                  ? 'Converted using the current exchange rate'
-                  : 'Approximate — live exchange rate unavailable, using a fallback rate'}
-              </span>
-            </>
-          ) : (
-            <span className="price-value-lkr price-value-lkr--loading">Converting…</span>
-          )}
         </div>
       </div>
 
       {explanations.length > 0 && (
         <div className="result-explanations">
-          <h3>Why this price?</h3>
+          <h3>Why This Price?</h3>
+          <p className="explanations-subtitle">Factors that influenced the AI valuation</p>
           <ul>
             {explanations.map((item, idx) => (
               <li
                 key={idx}
                 className={`explanation-row ${item.direction === 'increased' ? 'is-up' : 'is-down'}`}
               >
-                <span className="explanation-arrow" aria-hidden="true">
+                <span className="explanation-badge" aria-hidden="true">
                   {item.direction === 'increased' ? '↑' : '↓'}
                 </span>
                 <div className="explanation-text">
@@ -90,13 +60,11 @@ function PredictionResult({ result, vehicleDetails }) {
 
       <p className="result-disclaimer">
         This is an AI-generated price estimate based on patterns in the
-        training data. The actual market price may differ. The model
-        predicts in USD; the LKR figure is a currency conversion for
-        convenience, not a separate prediction.
+        training data. The actual market price may differ.
       </p>
 
       <button type="button" className="download-report-btn" onClick={handleDownloadReport}>
-        Download Prediction Report
+        Download Valuation Report
       </button>
     </div>
   )

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Navbar from '../components/Navbar'
+import AppShell from '../components/AppShell'
 import { useAuth } from '../context/AuthContext'
 import { apiRequest } from '../api'
 
@@ -48,13 +48,15 @@ function HistoryPage() {
   }, [token])
 
   return (
-    <div className="page">
-      <Navbar />
-
-      <header className="hero hero-compact">
-        <p className="hero-eyebrow">Your past estimates</p>
-        <h1>Prediction history</h1>
-        <p className="hero-subtitle">Every price estimate you've generated, most recent first.</p>
+    <AppShell>
+      <header className="dashboard-hero dashboard-hero--compact">
+        <div className="dashboard-hero-text">
+          <p className="dashboard-hero-eyebrow">YOUR PAST ESTIMATES</p>
+          <h1 className="dashboard-hero-title">Prediction History</h1>
+          <p className="dashboard-hero-subtitle">
+            Every valuation you've generated, most recent first.
+          </p>
+        </div>
       </header>
 
       {error && <div className="error-banner">{error}</div>}
@@ -73,34 +75,23 @@ function HistoryPage() {
       )}
 
       {!isLoading && !error && records.length > 0 && (
-        <div className="history-table-wrap">
-          <table className="history-table">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Brand</th>
-                <th>Model</th>
-                <th>Year</th>
-                <th>Mileage (km)</th>
-                <th>Predicted price</th>
-              </tr>
-            </thead>
-            <tbody>
-              {records.map((r) => (
-                <tr key={r.id}>
-                  <td>{formatDate(r.created_at)}</td>
-                  <td>{r.brand}</td>
-                  <td>{r.model}</td>
-                  <td>{r.year}</td>
-                  <td>{r.mileage_km.toLocaleString()}</td>
-                  <td className="history-price">{formatCurrency(r.predicted_price)}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <ul className="history-list">
+          {records.map((r) => (
+            <li key={r.id} className="history-item">
+              <div className="history-item-main">
+                <span className="history-item-vehicle">
+                  {r.brand} {r.model}
+                </span>
+                <span className="history-item-meta">
+                  {r.year} · {r.mileage_km.toLocaleString()} km · {formatDate(r.created_at)}
+                </span>
+              </div>
+              <span className="history-item-price">{formatCurrency(r.predicted_price)}</span>
+            </li>
+          ))}
+        </ul>
       )}
-    </div>
+    </AppShell>
   )
 }
 

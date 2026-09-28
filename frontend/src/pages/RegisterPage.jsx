@@ -107,7 +107,7 @@ function RegisterPage() {
 
       <div className="login-content">
         <div className="login-card">
-          <span className="login-label">EXPLAINABLE CAR VALUATION SYSTEM</span>
+          <span className="login-label">EXPLAINABLE AI CAR VALUATION</span>
           <h1 className="login-heading">Create Your Account</h1>
           <p className="login-subtitle">
             Sign up to start getting AI-powered valuations for your vehicle.

@@ -1,15 +1,24 @@
 :root {
-  --bg: #14171b;
-  --surface: #1c2026;
-  --surface-raised: #21262d;
-  --line: #2c323a;
-  --text: #f0eee9;
-  --text-muted: #8b9199;
-  --amber: #e8a33d;
-  --amber-dim: #7a5a2c;
-  --steel: #5b9aa6;
-  --steel-dim: #2f4d53;
-  --danger: #c96a5a;
+  /* Deep navy / midnight command-center background */
+  --bg: #070a14;
+  --surface: #0e1322;
+  --surface-raised: #141b2e;
+  --line: #232c46;
+  --text: #edf0fa;
+  --text-muted: #8892ab;
+
+  /* Primary accent = blue, secondary accent = violet. Used together as
+     a gradient for the most important actions (Predict, Sign in, the
+     price spotlight); used separately for directional indicators
+     (increased / decreased) elsewhere. */
+  --primary: #5b8dfb;
+  --primary-dim: #2b3a63;
+  --secondary: #9b6bff;
+  --secondary-dim: #3a2f63;
+  --gradient: linear-gradient(135deg, #5b8dfb 0%, #9b6bff 100%);
+  --gradient-soft: linear-gradient(135deg, rgba(91, 141, 251, 0.16) 0%, rgba(155, 107, 255, 0.16) 100%);
+
+  --danger: #f2685c;
 
   --font-display: 'Space Grotesk', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
@@ -46,7 +55,7 @@ button {
 }
 
 :focus-visible {
-  outline: 2px solid var(--amber);
+  outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
 

@@ -1,6 +1,6 @@
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable'
-import { formatUsd, formatLkr } from './currency'
+import { formatUsd } from './currency'
 
 // Maps the payload keys already sent to /predict to the labels shown
 // in the report. Add/remove a line here if a field is ever added to
@@ -35,7 +35,7 @@ function formatMileage(value) {
 /**
  * Builds and downloads a PDF report for the CURRENT prediction result.
  * Does not call the backend or the ML model — everything it renders was
- * already returned by /predict (and the currency conversion layer) and
+ * already returned by /predict and
  * is simply laid out on the page.
  *
  * @param {Object} params
@@ -44,15 +44,11 @@ function formatMileage(value) {
  *   owner_count, condition, city, service_history, accident_history, features_count)
  * @param {number} params.predictedPriceUsd - result.predicted_price from /predict
  * @param {Array}  params.explanations - result.explanations from /predict (SHAP-derived)
- * @param {number|null} params.lkrValue - the already-converted LKR amount, or null if not ready
- * @param {boolean} params.isLiveRate - whether lkrValue used a live exchange rate or the fallback
  */
 export function generatePredictionReport({
   vehicleDetails,
   predictedPriceUsd,
   explanations = [],
-  lkrValue = null,
-  isLiveRate = false,
 }) {
   const doc = new jsPDF({ unit: 'pt', format: 'a4' })
   const pageWidth = doc.internal.pageSize.getWidth()
@@ -122,7 +118,7 @@ export function generatePredictionReport({
   y = doc.lastAutoTable.finalY + 30
 
   // ---------- Price prediction (highlighted) ----------
-  const panelHeight = lkrValue != null ? 92 : 70
+  const panelHeight = 70
   doc.setFillColor(...PANEL)
   doc.roundedRect(margin, y, pageWidth - margin * 2, panelHeight, 8, 8, 'F')
 
@@ -130,32 +126,13 @@ export function generatePredictionReport({
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(9)
   doc.setTextColor(...MUTED)
-  doc.text('ESTIMATED PRICE (USD)', margin + 20, priceY)
+  doc.text('PREDICTED CAR PRICE (USD)', margin + 20, priceY)
 
   priceY += 22
   doc.setFont('helvetica', 'bold')
   doc.setFontSize(22)
   doc.setTextColor(...ACCENT)
   doc.text(formatUsd(predictedPriceUsd), margin + 20, priceY)
-
-  if (lkrValue != null) {
-    priceY += 20
-    doc.setFont('helvetica', 'normal')
-    doc.setFontSize(10)
-    doc.setTextColor(...INK)
-    doc.text(`Approx. in Sri Lankan Rupees (LKR): ${formatLkr(lkrValue)}`, margin + 20, priceY)
-
-    priceY += 14
-    doc.setFontSize(8)
-    doc.setTextColor(...MUTED)
-    doc.text(
-      isLiveRate
-        ? 'Converted using the exchange rate at the time of prediction.'
-        : 'Approximate conversion — a live exchange rate was unavailable, so a fallback rate was used.',
-      margin + 20,
-      priceY,
-    )
-  }
 
   y += panelHeight + 30
 
@@ -238,8 +215,7 @@ export function generatePredictionReport({
   doc.setTextColor(...MUTED)
   const disclaimerLines = doc.splitTextToSize(
     'This is an AI-generated price estimate based on patterns in the training data. The actual ' +
-      'market price may differ. The LKR amount shown is an approximate currency conversion of the ' +
-      'USD prediction and may change with exchange rates.',
+      'market price may differ.',
     pageWidth - margin * 2,
   )
   doc.text(disclaimerLines, margin, y)

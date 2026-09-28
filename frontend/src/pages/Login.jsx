@@ -93,7 +93,7 @@ function Login() {
 
       <div className="login-content">
         <div className="login-card">
-          <span className="login-label">EXPLAINABLE CAR VALUATION SYSTEM</span>
+          <span className="login-label">EXPLAINABLE AI CAR VALUATION</span>
           <h1 className="login-heading">Welcome Back</h1>
           <p className="login-subtitle">
             Sign in to continue to your AI-powered vehicle valuation dashboard.

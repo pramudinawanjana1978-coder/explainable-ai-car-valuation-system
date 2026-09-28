@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import CarForm from '../components/CarForm'
 import PredictionResult from '../components/PredictionResult'
-import Navbar from '../components/Navbar'
+import AppShell from '../components/AppShell'
+import Hero from '../components/Hero'
 import { useAuth } from '../context/AuthContext'
 import { apiRequest } from '../api'
 
@@ -29,27 +30,10 @@ function PredictorPage() {
   }
 
   return (
-    <div className="page">
-      <Navbar />
+    <AppShell>
+      <Hero />
 
-      <header className="hero">
-        <div className="hero-gauge" aria-hidden="true">
-          <svg viewBox="0 0 120 120">
-            <circle cx="60" cy="60" r="52" className="gauge-track" />
-            <circle cx="60" cy="60" r="52" className="gauge-fill" />
-            <line x1="60" y1="60" x2="60" y2="18" className="gauge-needle" />
-          </svg>
-        </div>
-        <p className="hero-eyebrow">Instant valuation, powered by machine learning</p>
-        <h1>AI Car Price Predictor</h1>
-        <p className="hero-subtitle">
-          Enter your vehicle's details and get an instant, data-driven
-          estimate of its market value, with a breakdown of what pushed the
-          number up or down.
-        </p>
-      </header>
-
-      <main className="layout">
+      <div className="layout">
         <section className="form-section">
           <h2>Vehicle details</h2>
           <CarForm onSubmit={handlePredict} isLoading={isLoading} />
@@ -75,12 +59,12 @@ function PredictorPage() {
             <PredictionResult result={result} vehicleDetails={vehicleDetails} />
           )}
         </section>
-      </main>
+      </div>
 
       <footer className="page-footer">
-        <p>AI Car Price Predictor · Local demo running on Flask + scikit-learn</p>
+        <p>Explainable AI Car Valuation · Local demo running on Flask + scikit-learn</p>
       </footer>
-    </div>
+    </AppShell>
   )
 }
 
